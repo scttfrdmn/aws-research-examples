@@ -29,13 +29,12 @@ An interactive gallery showcasing 172 verified AWS-powered academic research pro
 
 - **172 total projects** across 18 countries
 - **Temporal:** 2025 (10), 2024 (83), 2023 (50), 2021-22 (29)
-- **Top domains:** AI/ML (59), Genomics (25), Medical (22), Climate (21)
-- **Major programs:** Build on Trainium, Science Hubs, GenAI Innovation Center, RONIN
+- **Top domains:** AI/ML (90), Medical (39), Education (37), Genomics (27), Climate (19)
+- **Major programs:** Build on Trainium, Science Hubs, GenAI Innovation Center, RONIN, Open Data
 
 ## Current Status
 
-**Sample Dataset:** Currently showing 20 representative examples
-**Next Step:** Full data population with all 172 projects from main README.md
+**✅ Complete:** All 172 research projects from the main README.md are now populated in the gallery!
 
 ## Local Development
 
