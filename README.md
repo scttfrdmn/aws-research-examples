@@ -1140,15 +1140,307 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ---
 
-## Combined Summary (100 Examples Total)
+## Advanced AI Research Programs (Build on Trainium & Research Awards)
+
+### 101. Carnegie Mellon University – Catalyst Research on Trainium
+
+**Project:** Build on Trainium research initiative focusing on tensor program compilation, ML parallelization, and language model serving and tuning using AWS Trainium chips.
+
+**AWS Services:** AWS Trainium, Trainium UltraClusters (up to 40,000 chips), EC2 Trn1 instances
+
+**Year:** 2024
+
+**Key Achievement:** Part of AWS's $110M investment in university-led generative AI research; researchers receive up to $11M in Trainium credits.
+
+**Source:** [About Amazon - Trainium Investment](https://www.aboutamazon.com/news/aws/amazon-trainium-investment-university-ai-research)
+
+### 102. UC Berkeley – Trainium AI Research Partnership
+
+**Project:** Strategic partnership with AWS for AI and machine learning research using Trainium chips, part of Build on Trainium initiative.
+
+**AWS Services:** AWS Trainium, Trainium UltraClusters, EC2 Trn1 instances
+
+**Year:** 2024
+
+**Key Achievement:** Access to 40,000 Trainium chips for advancing machine learning research and education.
+
+**Source:** [Finimize - Amazon AI Initiative](https://finimize.com/content/amazon-ups-the-ante-in-ai-with-free-cloud-power)
+
+### 103. Multiple Universities – Amazon Research Awards Spring 2023 (Generative AI)
+
+**Project:** Nine award recipients across eight universities conducting cutting-edge generative AI research. Recipients include Chitta Baral, Muhao Chen, Jia Deng, Elena Glassman, Carlos Guestrin, Tatsunori Hashimoto, Jonathan Kummerfeld, Ali Mesbah, and Maarten Sap.
+
+**AWS Services:** AWS AI/ML services, Amazon public datasets, AWS promotional credits
+
+**Year:** 2023
+
+**Key Achievement:** Highest number of submissions for a single ARA call for proposals since program inception.
+
+**Source:** [Amazon Science - Spring 2023 Recipients](https://www.amazon.science/research-awards/program-updates/amazon-research-awards-spring-2023-generative-ai-cfp-recipients-announced)
+
+### 104. Carnegie Mellon University – CyLab Automated Reasoning Research
+
+**Project:** Three Amazon Research Awards to CyLab faculty (Limin Jia, Bryan Parno, Corina Pasareanu) for automated reasoning research.
+
+**AWS Services:** AWS promotional credits, Amazon public datasets
+
+**Year:** 2023
+
+**Key Achievement:** Part of 78 recipients representing 54 universities in 14 countries.
+
+**Source:** [CMU CyLab News](https://www.cylab.cmu.edu/news/2023/04/26-faculty-earn-amazon-research-awards.html)
+
+### 105. Carnegie Mellon Tepper School – Fairness in AI Research
+
+**Project:** Yan Huang's Amazon Research Award for fairness in artificial intelligence.
+
+**AWS Services:** AWS promotional credits, AWS AI/ML tools
+
+**Year:** 2023
+
+**Source:** [CMU News](https://www.cmu.edu/news/stories/archives/2023/may/tepper-school-faculty-member-wins-amazon-research-award-for-ai-work)
+
+### 106. UC Irvine – Cybersecurity AI Research
+
+**Project:** Zhou Li's Amazon Research Award for making organizational cyberenvironments safer through AI and machine learning.
+
+**AWS Services:** AWS promotional credits, AWS security tools
+
+**Year:** 2023
+
+**Source:** [UCI Engineering News](https://engineering.uci.edu/news/2023/2/uci-engineering-computer-scientist-wins-amazon-research-award)
+
+### 107. Columbia University – Fall 2023 Research Awards
+
+**Project:** Three Columbia Engineering researchers (Matei Ciocarlie, Tal Malkin, Carl Vondrick) received Amazon Research Awards as part of Fall 2023 cohort.
+
+**AWS Services:** AWS promotional credits, Amazon public datasets
+
+**Year:** 2023
+
+**Key Achievement:** Part of 98 Fall 2023 recipients representing 51 universities in 15 countries.
+
+**Source:** [Columbia Engineering News](https://www.engineering.columbia.edu/about/news/three-columbia-engineering-researchers-win-amazon-research-awards)
+
+---
+
+## University Science Hub Partnerships
+
+### 108. MIT – Amazon Science Hub 2023 Awards
+
+**Project:** Four MIT professors (Navid Azizan, Yoon Kim, Samuel Madden, Vivienne Sze) and two doctoral candidates (Sirui Li, Yue Meng) received gift project awards and fellowships for machine learning and robotics research.
+
+**AWS Services:** AWS cloud computing, AWS research credits
+
+**Year:** 2023
+
+**Key Achievement:** Projects advance safe deployment of machine-learned models in autonomous systems and efficient ML on edge devices.
+
+**Source:** [Amazon Science - MIT Hub 2023](https://www.amazon.science/news-and-features/amazon-and-mit-announce-science-hub-2023-gift-project-awards-and-fellowships)
+
+### 109. UCLA Science Hub – 2023 AI Research Awards
+
+**Project:** Five UCLA professors (Kai-Wei Chang, Nanyun Peng, Cho-Jui Hsieh, Chenfanfu Jiang, Jens Palsberg) received Science Hub for Humanity and AI awards for projects including document understanding, LLM efficiency, and program analysis.
+
+**AWS Services:** AWS cloud computing, AWS AI/ML services
+
+**Year:** 2023 (announced February 2024)
+
+**Source:** [Amazon Science - UCLA Hub 2023](https://www.amazon.science/news-and-features/amazon-and-ucla-announce-2023-science-hub-awards)
+
+### 110. UCLA Science Hub – Healthcare AI Applications
+
+**Project:** Four researchers (Adrian Au, Jonathan Kao, Ying Nian Wu, Ricky Savjani) exploring practical applications of AI in healthcare through the Science Hub.
+
+**AWS Services:** AWS AI/ML services, AWS healthcare cloud
+
+**Year:** 2023 (announced November 2023)
+
+**Source:** [Amazon Science - UCLA Healthcare AI](https://www.amazon.science/news-and-features/amazon-ucla-announce-recipients-of-gift-awards-for-applications-of-ai-in-healthcare)
+
+### 111. Virginia Tech – Amazon AI/ML Research Initiative
+
+**Project:** Two PhD fellows (Minsu Kim studying federated learning, Ying Shen) and five faculty members conducting research on efficient and robust machine learning systems.
+
+**AWS Services:** AWS Trainium credits, AWS AI/ML services
+
+**Year:** 2023-2024
+
+**Key Achievement:** Minsu Kim's research builds green, sustainable, and robust federated-learning solutions for AI-embedded products.
+
+**Source:** [Amazon Science - Virginia Tech](https://www.amazon.science/news-and-features/amazon-and-virginia-tech-announce-2023-2024-fellowship-faculty-research-award-recipients)
+
+### 112. University of Washington – Amazon Science Hub Launch
+
+**Project:** $25M ten-year collaboration launched March 2023 supporting collaborative research, education, and outreach in AI, robotics, and engineering. Funds fellowships for PhD students in College of Engineering and faculty-led research projects.
+
+**AWS Services:** AWS Cloud computing, AWS cloud credits for research
+
+**Year:** 2023-ongoing
+
+**Source:** [UW Science Hub News](https://www.sciencehub.uw.edu/news-events/)
+
+### 113. Max Planck Society – Amazon Science Hub Sustainability Awards
+
+**Project:** Two researchers (Joerg Stueckler, Dirk Ponge) received gift funding for sustainability-focused AI research projects aimed at minimizing waste. Part of first Amazon Science Hub outside the United States.
+
+**AWS Services:** AWS cloud computing
+
+**Year:** 2023 (June)
+
+**Source:** [Amazon Science - Max Planck Sustainability](https://www.amazon.science/news-and-features/amazon-and-max-planck-society-announce-science-hub-sustainability-project-awards)
+
+---
+
+## Canadian University Research Computing
+
+### 114. University of Alberta – AI Discovery Place
+
+**Project:** Amazon Web Services and University of Alberta created the "Artificial Intelligence Discovery Place" at Enterprise Square campus, democratizing access to AI technology for researchers and students using AWS Cloud computing.
+
+**AWS Services:** AWS Cloud computing, AWS AI/ML services
+
+**Year:** 2024 (January announcement)
+
+**Key Achievement:** Builds on partnership that started in 2016; leverages Calgary data centre hub opened December 2023.
+
+**Source:** [University of Alberta Folio](https://www.ualberta.ca/en/folio/2024/01/amazon-web-services-u-of-a-team-up.html)
+
+### 115. McMaster University – Health Sciences Data Protection
+
+**Project:** McMaster Faculty of Health Sciences migrated to Clumio's AWS-based data protection solution, securing valuable health sciences research datasets.
+
+**AWS Services:** Amazon EC2, Amazon EBS, AWS Lambda
+
+**Year:** 2023
+
+**Key Achievement:** Reduced costs by 50%, gained 85% more efficiency, migrated in 7 hours from on-premises backup.
+
+**Source:** [AWS Partner Success Story](https://aws.amazon.com/partners/success/mcmaster-university-clumio/)
+
+### 116. University of British Columbia – RONIN HPC Platform & Serratus Project
+
+**Project:** UBC Advanced Research Computing leverages RONIN platform on AWS to quickly spin up 8,640-core clusters. Serratus project dynamically accesses over 22,250 CPUs for genomics analysis.
+
+**AWS Services:** AWS EC2, AWS compute infrastructure via RONIN
+
+**Year:** 2023-ongoing
+
+**Key Achievement:** 75% CPU efficiency; democratizes access to HPC for researchers without cloud expertise.
+
+**Source:** [AWS Public Sector Blog - UBC RONIN](https://aws.amazon.com/blogs/publicsector/accelerating-economic-research-ubc-high-performance-computing-ronin-aws/)
+
+### 117. University of British Columbia – Cloud Innovation Centre
+
+**Project:** UBC Cloud Innovation Centre (CIC) collaboration with AWS opened January 2020, producing 50+ prototypes in healthcare, education, and research sectors.
+
+**AWS Services:** AWS management services, AWS cloud infrastructure
+
+**Year:** 2020-ongoing
+
+**Source:** [AWS Public Sector Blog - UBC CIC](https://aws.amazon.com/blogs/publicsector/university-of-british-columbia-cloud-innovation-centre-governing-an-innovation-hub-using-aws-management-services/)
+
+---
+
+## 2023 University Research Initiatives
+
+### 118. Arizona State University – AI Cloud Innovation Center
+
+**Project:** Launch of ASU Artificial Intelligence Cloud Innovation Center (CIC) powered by AWS to help global government agencies, education institutions, and nonprofits address mission challenges with AI.
+
+**AWS Services:** AWS cloud infrastructure, AWS AI services
+
+**Year:** 2023 (announced at re:Invent 2023)
+
+**Source:** [AWS Public Sector Blog - re:Invent 2023](https://aws.amazon.com/blogs/publicsector/dave-levy-reinvent-innovation-talk-highlights/)
+
+### 119. Case Western Reserve University – Cloud Analytics Platform
+
+**Project:** CWRU created opportunities for evolution through AWS Cloud services for campus-wide analytics and institutional research.
+
+**AWS Services:** AWS cloud services
+
+**Year:** 2023 (February)
+
+**Source:** [AWS Public Sector Blog - Higher Education](https://aws.amazon.com/blogs/publicsector/advanced-analytics-improve-efficiency-provide-important-student-insights-higher-education-institutions/)
+
+### 120. Indiana University – Automated Transcription Service
+
+**Project:** Indiana University's Automated Transcription Service (ATS) launched university-wide for social science research, providing secure automated transcription on AWS.
+
+**AWS Services:** AWS transcription services, AWS secure infrastructure
+
+**Year:** 2023 (late)
+
+**Source:** [AWS Public Sector Blog - Indiana University](https://aws.amazon.com/blogs/publicsector/indiana-university-streamlines-social-science-research-with-secure-automated-transcription-on-aws/)
+
+### 121. University of Arizona – KMap AI-Powered Discovery
+
+**Project:** KMap system transforms research collaboration with AI-powered discovery on AWS, enabling researchers to discover connections across disparate knowledge domains.
+
+**AWS Services:** AWS AI services, AWS cloud infrastructure
+
+**Year:** 2023-ongoing
+
+**Source:** [AWS Public Sector Blog - U of A KMap](https://aws.amazon.com/blogs/publicsector/how-the-university-of-arizonas-kmap-transforms-research-collaboration-with-ai-powered-discovery-on-aws/)
+
+### 122. Stanford University – AIMI AWS Cloud Credit Program
+
+**Project:** Stanford's Center for Artificial Intelligence in Medicine & Imaging (AIMI) collaborates with AWS to offer researchers cloud credits up to $25,000 for 12-month AI research in health and medicine.
+
+**AWS Services:** AWS Cloud Credit for Research Program
+
+**Year:** 2023-ongoing
+
+**Source:** [Stanford AIMI](https://aimi.stanford.edu/aws-cloud-credit-program)
+
+---
+
+## Climate & Sustainability Research (2023)
+
+### 123. Realta Fusion (University of Wisconsin-Madison Incubation) – Plasma Simulation
+
+**Project:** Compute for Climate Fellowship 2023 recipient developing first-of-its-kind cloud-based plasma stability simulation. Achieved world record-breaking plasma generation in 2024.
+
+**AWS Services:** AWS cloud computing for simulation
+
+**Year:** 2023-2024
+
+**Key Achievement:** Previously only two supercomputers in US could handle these simulations with year-long waitlists; now accessible via cloud.
+
+**Source:** [AWS Startups Blog - Compute for Climate 2023](https://aws.amazon.com/blogs/startups/aws-and-ircai-announce-winners-of-the-2023-compute-for-climate-fellowship-and-open-applications-for-2024/)
+
+### 124. Coastal Carbon – Ocean Carbon Measurement
+
+**Project:** Compute for Climate Fellowship 2023 recipient building AI models for ocean carbon measurement, tracking underwater vegetation growth from satellites.
+
+**AWS Services:** AWS AI/ML services, AWS cloud storage
+
+**Year:** 2023
+
+**Source:** [IRCAI Compute for Climate](https://ircai.org/compute-for-climate-fellowship/)
+
+### 125. Xatoms – Water Purification Chemistry
+
+**Project:** Compute for Climate Fellowship 2023 recipient developing AI/ML algorithms for analyzing chemical data and simulating novel water purification molecules.
+
+**AWS Services:** Amazon Braket (quantum simulation), AWS storage
+
+**Year:** 2023
+
+**Source:** [AWS Startups Blog - Compute for Climate](https://aws.amazon.com/blogs/startups/aws-and-ircai-announce-winners-of-the-2023-compute-for-climate-fellowship-and-open-applications-for-2024/)
+
+---
+
+## Combined Summary (125 Examples Total)
 
 **Geographic Distribution (Combined):**
-- United States: 60 examples
+- United States: 75 examples
+- Canada: 6 examples (University of Alberta, McMaster, UBC x2, others)
 - United Kingdom: 6 examples
-- Germany: 2 examples
+- Germany: 3 examples (Max Planck Society x2, others)
 - Australia: 5 examples
 - France: 1 example
-- Canada: 2 examples
 - South Africa: 1 example
 - Kenya: 1 example
 - India: 1 example
@@ -1156,37 +1448,53 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 - China: 1 example
 - Netherlands: 1 example
 - Bahrain: 1 example
-- International collaborations: 17 examples
+- International collaborations: 22 examples
 
 **Temporal Distribution (Combined):**
 - 2025: 7 examples
-- 2024: 56 examples
-- 2023: 26 examples
-- 2020-2022: 11 examples
+- 2024: 64 examples
+- 2023: 42 examples (significant increase with Phase 3 additions)
+- 2020-2022: 12 examples
 
 **Research Domains (Combined):**
+- Computer Science & AI/ML: 38 (expanded with Trainium, Science Hubs, Amazon Research Awards)
 - Life Sciences & Genomics: 14
-- Climate & Environmental Science: 10
+- Medical Research & Healthcare: 15
+- Climate & Environmental Science: 13 (includes Compute for Climate fellows)
 - Physics & Astronomy: 8
-- Computer Science & AI/ML: 21
-- Medical Research & Healthcare: 13
+- Education & Learning Analytics: 7
 - Drug Discovery & Pharmaceutical: 6
 - Chemistry & Molecular Dynamics: 6
-- Education & Learning Analytics: 7
-- High Performance Computing: 4
 - Satellite & Remote Sensing: 6
-- Renewable Energy & Sustainability: 4
+- High Performance Computing: 5
+- Renewable Energy & Sustainability: 6
 - Quantum Computing: 1
 
 **Most Frequently Used AWS Services (Combined):**
-- Amazon EC2 (including Spot Instances and GPU variants): 55+ projects
-- Amazon S3 / AWS Open Data: 70+ projects
+- Amazon EC2 (including Spot Instances, GPU variants, Trainium): 65+ projects
+- Amazon S3 / AWS Open Data: 75+ projects
+- AWS AI/ML Services (SageMaker, Bedrock, promotional credits): 30+ projects
 - AWS Batch: 16 projects
-- Amazon SageMaker: 12 projects
+- AWS Trainium / UltraClusters: 3 major programs
 - AWS ParallelCluster: 8 projects
-- AWS Serverless (Lambda, Step Functions): 10 projects
+- AWS Serverless (Lambda, Step Functions): 12 projects
 
-**Key Insight:** The expanded collection of 100 examples demonstrates AWS's comprehensive role in accelerating scientific discovery across all major research domains, with particularly strong adoption in 2024 reflecting the platform's maturity and the research community's growing comfort with cloud-native workflows. The diversity of sources—from arXiv preprints to Nature publications—shows AWS has become embedded throughout the research lifecycle.
+**Key Programs Represented:**
+- Build on Trainium ($110M investment): 2 universities
+- Amazon Research Awards: 15+ recipients across multiple years
+- Amazon Science Hubs: 6 institutions (MIT, UCLA, UW, Virginia Tech, Max Planck, USC)
+- Compute for Climate Fellowship: 3 recipients
+- AWS Cloud Credit for Research: Multiple institutions
+- NIH STRIDES: Multiple institutions (see earlier examples)
+
+**Phase 3 Highlights (Examples 101-125):**
+- Strong focus on 2023 examples (19 of 25 new examples)
+- Canadian university research computing partnerships (4 examples)
+- Amazon-funded research programs (Science Hubs, Research Awards)
+- Advanced AI/ML research with Trainium chips
+- Sustainability and climate research initiatives
+
+**Key Insight:** The expanded collection of 125 examples demonstrates AWS's comprehensive role across the entire research ecosystem—from individual research awards to major institutional partnerships. The significant increase in 2023 examples (42 total) shows sustained momentum in cloud adoption for research. The diversity of funding mechanisms (direct AWS programs, Science Hubs, research awards, credit programs) and the geographic expansion to Canadian institutions highlight AWS's strategic investment in global academic research infrastructure. The Build on Trainium program represents a major new initiative specifically designed to advance AI research at leading universities with access to cutting-edge hardware.
 
 ---
 
