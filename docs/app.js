@@ -68,14 +68,8 @@ function applyFilters() {
 
         // Year filter
         if (filters.year !== 'all') {
-            if (filters.year === '2021-2022') {
-                if (!project.year.includes('2021') && !project.year.includes('2022')) {
-                    return false;
-                }
-            } else {
-                if (!project.year.includes(filters.year)) {
-                    return false;
-                }
+            if (!project.year.includes(filters.year)) {
+                return false;
             }
         }
 
