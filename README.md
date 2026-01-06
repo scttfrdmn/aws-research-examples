@@ -2,6 +2,10 @@
 
 *A Global Survey of Cloud-Enabled Scientific Discovery*
 
+**🌐 [Browse the Interactive Gallery](https://scttfrdmn.github.io/aws-research-examples/)** • Search, filter, and explore all projects with a beautiful card interface
+
+---
+
 AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives, conservation biology to economic modeling. This compilation documents 172 verified AWS-specific ACADEMIC examples spanning 18 countries (including Switzerland, Sweden, Singapore, Germany, Australia), covering 2021-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center (4 institutions), Amazon Science Hubs (6 institutions), AWS Registry of Open Data (10+ university datasets), Amazon Sustainability Data Initiative (ASDI), AWS HPC Partner ecosystem (RONIN), and Amazon Research Awards.
 
 ---
