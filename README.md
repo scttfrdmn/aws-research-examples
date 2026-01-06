@@ -1,8 +1,8 @@
-# 137 Academic Research Projects Powered by AWS
+# 146 Academic Research Projects Powered by AWS
 
 *A Global Survey of Cloud-Enabled Scientific Discovery*
 
-AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling. This compilation documents 137 verified AWS-specific examples spanning 18 countries, prioritizing recent work from 2023-2025. Includes major programs: Build on Trainium ($110M, 10 universities), Amazon Science Hubs (6 institutions), Amazon Sustainability Data Initiative (ASDI), and Amazon Research Awards.
+AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives. This compilation documents 146 verified AWS-specific examples spanning 15 countries, prioritizing recent work from 2023-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center, Amazon Science Hubs (6 institutions), AWS Registry of Open Data (9 university datasets), Amazon Sustainability Data Initiative (ASDI), and Amazon Research Awards.
 
 ---
 
@@ -1568,16 +1568,129 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ---
 
-## Combined Summary (137 Examples Total)
+## Generative AI Research & Innovation Center Partnerships
+
+### 131. Cornell University – AI-Powered Socratic Dialogue Chat
+
+**Project:** Cornell University collaborated with AWS Generative AI Innovation Center to develop an AI-powered Socratic Dialogue classroom chat-based assistant. Deployed across five courses in fall 2024, reaching over 500 students.
+
+**AWS Services:** AWS Generative AI Innovation Center, Amazon Bedrock, AWS Professional Services
+
+**Year:** 2024 (spring PoC, fall deployment)
+
+**Key Achievement:** Successfully deployed campus-wide AI learning assistant; part of four-project Cornell-AWS GenAI collaboration.
+
+**Source:** [AWS Public Sector Blog - Cornell Socratic Chat](https://aws.amazon.com/blogs/publicsector/transforming-classroom-conversations-cornell-universitys-ai-powered-socratic-chat-on-aws/)
+
+### 132. Weill Cornell Medicine – Medical Archive Digitization with GenAI
+
+**Project:** Weill Cornell Medicine partnered with AWS Generative AI Innovation Center in May 2024 to digitize historical medical archives using generative AI, preserving and making accessible valuable medical historical documents.
+
+**AWS Services:** AWS Generative AI Innovation Center, generative AI services
+
+**Year:** 2024
+
+**Source:** [AWS Public Sector Blog - Weill Cornell Archives](https://aws.amazon.com/blogs/publicsector/weill-cornell-medicine-digitizes-historical-medical-archives-with-generative-ai-on-aws/)
+
+### 133. Dartmouth College – Claude for Education Partnership
+
+**Project:** Dartmouth became the first Ivy League institution to partner with AWS and Anthropic to launch AI at institutional scale. Partnership includes Claude for Education and Amazon Bedrock access for all students, faculty, and staff. Preparing Class of 2029 as Dartmouth's first "AI-fluent" undergraduate class.
+
+**AWS Services:** Amazon Bedrock, Claude for Education (via Anthropic partnership)
+
+**Year:** 2025 (announced December)
+
+**Key Achievement:** First Ivy League institution-scale AI deployment; historically significant (Dartmouth hosted 1956 conference that created AI as a discipline).
+
+**Source:** [Dartmouth News](https://home.dartmouth.edu/news/2025/12/dartmouth-announces-ai-partnership-anthropic-and-aws)
+
+---
+
+## Open Data Registry - University Research Datasets
+
+### 134. University of Oxford – APAD Air Pollution Detection
+
+**Project:** Air Pollution Asset-Level Detection (APAD) project from Smith School of Enterprise and the Environment built ML models to analyze 1.2 million satellite images, mapping 1.5 million square miles in Indo-Gangetic Plain and identifying 50,000+ pollution sources including brick kilns and field burning.
+
+**AWS Services:** Amazon EC2 C5 Instances, Amazon EC2 G4 Instances (NVIDIA T4 GPUs), AWS Registry of Open Data
+
+**Year:** 2024 (May launch, November open data release)
+
+**Key Achievement:** Increased processing throughput by 400% (5,000 to 30,000 square miles/day); made data open source on AWS Registry of Open Data in November 2024.
+
+**Source:** [AWS Case Study - Oxford APAD](https://aws.amazon.com/solutions/case-studies/oxford-apad-case-study/)
+
+### 135. University of Oxford – GLAM Museum Collections ML Cataloging
+
+**Project:** Oxford Gardens, Libraries & Museums (GLAM) housing 21 million objects built and deployed 11 machine learning models in 10 weeks to automatically catalog artifacts, tackling massive object cataloging backlog. Focused on Ashmolean Museum coin collection.
+
+**AWS Services:** Amazon SageMaker, Amazon EC2 P3 Instances (NVIDIA V100 GPUs), Amazon EC2 G4 Instances, Amazon EC2 Spot Instances
+
+**Year:** 2023-2024
+
+**Key Achievement:** 90% cost reduction using Spot Instances (10% of On-Demand pricing); 50% faster training time; framework-agnostic implementation with PyTorch.
+
+**Source:** [AWS Case Study - Oxford GLAM](https://aws.amazon.com/solutions/case-studies/oxford-case-study/)
+
+### 136. Seoul National University – Steinegger Lab Bioinformatics Datasets
+
+**Project:** Steinegger Lab provides biological databases and resources critical for protein sequence and structure analysis, supporting ColabFold, MMseqs2, and Foldseek/Foldcomp—high-performance computational tools with 800,000+ installations and 10M+ web service uses.
+
+**AWS Services:** AWS Registry of Open Data, Amazon S3
+
+**Year:** 2023-ongoing
+
+**Key Achievement:** Includes MMseqs2 datasets (UniRef30, BFD, ColabFold environmental databases) and Foldseek datasets (AlphaFold Database, PDB, SwissProt, CATH) for protein structure analysis.
+
+**Source:** [AWS Registry of Open Data - Steinegger Lab](https://registry.opendata.aws/steineggerlab/)
+
+### 137. University of Colorado Boulder – DANRA Meteorological Reanalysis
+
+**Project:** Space Weather Technology, Research and Education Center (TREC) manages DANRA, a high-resolution meteorological reanalysis dataset for Denmark and Northwestern Europe covering September 1990 to December 2023.
+
+**AWS Services:** AWS Registry of Open Data, Amazon S3, Amazon Sustainability Data Initiative (ASDI)
+
+**Year:** 1990-2023 (dataset coverage)
+
+**Source:** [AWS Registry of Open Data - ASDI](https://registry.opendata.aws/collab/asdi/)
+
+### 138. NASA HEASARC – High Energy Astrophysics Data
+
+**Project:** Beginning in 2023 as part of NASA's Year of Open Science, the High Energy Astrophysics Science Archive Research Center made data from 30+ missions spanning 50 years available on AWS, including Chandra, Fermi, NuSTAR, NICER, and Swift observatories.
+
+**AWS Services:** AWS Registry of Open Data, Amazon S3, NASA Space Act Agreement
+
+**Year:** 2023-ongoing
+
+**Key Achievement:** Free cloud access without egress costs; weekly data synchronization; enables Fornax Initiative cloud analysis capabilities.
+
+**Source:** [NASA HEASARC Cloud Access](https://heasarc.gsfc.nasa.gov/docs/archive/cloud.html), [AWS Registry - NASA HEASARC](https://registry.opendata.aws/nasa-heasarc/)
+
+### 139. Institut Pasteur – Logan SRA Genome Assembly
+
+**Project:** Logan project re-analyzed NCBI Sequence Read Archive (SRA) December 2023 freeze containing 50 petabases across 27 million sequencing datasets. Processed 20 petabases in 30 hours using 2.18M AWS Graviton cores to create compressed, accessible genome assemblies.
+
+**AWS Services:** AWS Batch, AWS Graviton, Amazon S3, AWS Registry of Open Data
+
+**Year:** 2023 (December freeze)
+
+**Key Achievement:** Assembled 27.3 million accessions (96% of SRA); 20-100x smaller size than original; 30-hour processing time; supports IndexThePlanet five-year ERC project.
+
+**Source:** [AWS Registry - Pasteur Logan](https://registry.opendata.aws/pasteur-logan/), [AWS Public Sector Blog - Institut Pasteur](https://aws.amazon.com/blogs/publicsector/the-institut-pasteur-is-creating-a-searchable-dna-database-of-all-life-on-earth-using-aws/)
+
+---
+
+## Combined Summary (146 Examples Total)
 
 **Geographic Distribution (Combined):**
-- United States: 83 examples (expanded with ASDI partnerships)
+- United States: 90 examples (Cornell x2, Dartmouth, U Colorado, NASA + previous)
+- United Kingdom: 9 examples (Oxford APAD, Oxford GLAM + previous)
+- France: 2 examples (Institut Pasteur x2)
+- South Korea: 1 example (Seoul National University)
 - Canada: 7 examples (Alberta, McMaster, UBC x2, UBC via RONIN)
-- United Kingdom: 7 examples (Kingston University, others)
 - Germany: 3 examples (Max Planck Society x2, others)
 - Japan: 1 example (Waseda University)
 - Australia: 5 examples
-- France: 1 example
 - South Africa: 1 example
 - Kenya: 1 example
 - India: 1 example
@@ -1585,60 +1698,66 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 - China: 1 example
 - Netherlands: 1 example
 - Bahrain: 1 example
-- International collaborations: 23 examples
+- International collaborations (NASA, ASDI): 21 examples
 
 **Temporal Distribution (Combined):**
-- 2025: 7 examples
-- 2024: 71 examples (includes new Build on Trainium participants)
-- 2023: 47 examples (includes ASDI partnerships)
+- **2025: 8 examples** (Dartmouth Claude partnership + previous)
+- **2024: 77 examples** (Cornell x2, Oxford APAD, Oxford GLAM + previous)
+- **2023: 49 examples** (Logan SRA, NASA HEASARC, U Colorado DANRA + previous)
 - 2020-2022: 12 examples
 
 **Research Domains (Combined):**
-- Computer Science & AI/ML: 46 (significantly expanded with Build on Trainium participants)
-- Climate & Environmental Science: 18 (includes ASDI climate research + Compute for Climate)
-- Life Sciences & Genomics: 15 (includes Kingston U genomics AI)
-- Medical Research & Healthcare: 16 (includes MIT 3D medical imaging)
-- Physics & Astronomy: 8
-- Education & Learning Analytics: 7
-- Drug Discovery & Pharmaceutical: 6
-- Chemistry & Molecular Dynamics: 6
-- Satellite & Remote Sensing: 6
-- High Performance Computing: 5
-- Renewable Energy & Sustainability: 6
-- Quantum Computing: 1
+- **Computer Science & AI/ML: 53** (Generative AI Innovation Center, Trainium, Science Hubs)
+- **Life Sciences & Genomics: 18** (Logan SRA, Steinegger Lab, Kingston U, Serratus + previous)
+- **Climate & Environmental Science: 20** (APAD air pollution, DANRA meteorology, ASDI + previous)
+- **Medical Research & Healthcare: 18** (Weill Cornell archives, MIT 3D imaging, Cornell Socratic Chat + previous)
+- **Physics & Astronomy: 9** (NASA HEASARC + previous)
+- **Cultural Heritage & Museums: 1** (Oxford GLAM)
+- **Education & Learning Analytics: 8** (Dartmouth Claude, Cornell Socratic + previous)
+- **Drug Discovery & Pharmaceutical: 6**
+- **Chemistry & Molecular Dynamics: 6**
+- **Satellite & Remote Sensing: 7** (Oxford APAD + previous)
+- **High Performance Computing: 5**
+- **Renewable Energy & Sustainability: 6**
+- **Quantum Computing: 1**
 
 **Most Frequently Used AWS Services (Combined):**
-- Amazon EC2 (including Spot Instances, GPU variants, Trainium): 75+ projects
-- Amazon S3 / AWS Open Data / Registry of Open Data: 80+ projects
-- AWS Trainium / UltraClusters: 10 universities (CMU, Berkeley, UCLA, MIT, Stanford, UIUC, UCI, UBC, Waseda, Kingston)
-- AWS AI/ML Services (SageMaker, Bedrock, promotional credits): 35+ projects
-- Amazon Sustainability Data Initiative (ASDI): 5 universities
-- AWS Batch: 16 projects
-- AWS ParallelCluster: 8 projects
-- AWS Serverless (Lambda, Step Functions): 12 projects
+- **Amazon S3 / AWS Open Data / Registry of Open Data: 90+ projects** (major expansion with Open Data Registry examples)
+- **Amazon EC2 (including Spot Instances, GPU variants, Trainium): 80+ projects**
+- **AWS Generative AI Innovation Center: 3 universities** (Cornell x2, Weill Cornell)
+- **AWS Trainium / UltraClusters: 10 universities** (CMU, Berkeley, UCLA, MIT, Stanford, UIUC, UCI, UBC, Waseda, Kingston)
+- **AWS AI/ML Services (SageMaker, Bedrock, promotional credits): 40+ projects**
+- **AWS Batch: 18 projects** (Logan SRA + previous)
+- **Amazon Sustainability Data Initiative (ASDI): 6 universities** (U Colorado DANRA + previous 5)
+- **AWS Graviton: 2 major projects** (Logan SRA, Institut Pasteur IndexThePlanet)
+- **AWS ParallelCluster: 8 projects**
+- **AWS Serverless (Lambda, Step Functions): 12 projects**
 
 **Key Programs Represented:**
 - **Build on Trainium ($110M investment)**: 10 universities across US, UK, Japan (CMU, Berkeley, UCLA, MIT, Stanford, UIUC, UC Irvine, UBC, Waseda, Kingston)
   - Strategic partnerships: CMU and Berkeley ($11M each in credits)
   - Individual grants: up to $500K for broader research community
-- Amazon Research Awards: 15+ recipients across multiple years
-- Amazon Science Hubs: 6 institutions (MIT, UCLA, UW, Virginia Tech, Max Planck, USC)
-- **Amazon Sustainability Data Initiative (ASDI)**: 5 universities (WashU St. Louis, Cornell, Rutgers, Colorado State, UW)
-- Compute for Climate Fellowship: 3 recipients
-- AWS Cloud Credit for Research: Multiple institutions
-- NIH STRIDES: Multiple institutions (see earlier examples)
+- **AWS Generative AI Innovation Center**: 3 institutions (Cornell x2, Weill Cornell)
+- **AWS Registry of Open Data**: 9 university datasets (Oxford APAD, Steinegger Lab, U Colorado DANRA, NASA HEASARC, Logan SRA, WashU PM2.5, UBC, U Chicago, + others)
+- **Amazon Science Hubs**: 6 institutions (MIT, UCLA, UW, Virginia Tech, Max Planck, USC)
+- **Amazon Sustainability Data Initiative (ASDI)**: 6 universities (U Colorado + WashU St. Louis, Cornell, Rutgers, Colorado State, UW)
+- **Amazon Research Awards**: 15+ recipients across multiple years
+- **Compute for Climate Fellowship**: 3 recipients (Realta Fusion, Coastal Carbon, Xatoms)
+- **AWS Cloud Credit for Research**: Multiple institutions
+- **NIH STRIDES**: Multiple institutions (see earlier examples)
+- **Claude for Education**: 1 institution (Dartmouth - first Ivy League)
 
-**Phase 3+ Highlights (Examples 101-137):**
-- **37 new examples** added focusing on:
-  - Build on Trainium expansion (7 additional universities beyond CMU/Berkeley)
-  - International reach (Japan, UK participants in Trainium program)
-  - Amazon Sustainability Data Initiative partnerships (climate research)
-  - Strong 2023 representation (ASDI partnerships, Science Hubs)
-- Global expansion: Japan (Waseda) and UK (Kingston) joining advanced AI research
-- Sustainability focus: 5 universities using ASDI for climate modeling and air quality research
-- Randall Martin's global PM2.5 data (1998-2023) supporting worldwide public health research
+**Phase 3+ Highlights (Examples 101-146):**
+- **46 new examples** across three search phases:
+  - **Phase 3**: Build on Trainium (7 universities), Science Hubs (6 institutions), ASDI partnerships (5 universities), Canadian research computing (4 universities)
+  - **Phase 4A**: AWS case studies (2 Oxford projects), Generative AI Innovation Center (3 Cornell institutions), Open Data Registry (6 datasets: Seoul National, U Colorado, NASA, Institut Pasteur, etc.)
+- **Generative AI Innovation Center partnerships**: Cornell (Socratic Chat, 500+ students), Weill Cornell (medical archives), featured at re:Invent 2024
+- **Dartmouth Claude for Education**: First Ivy League institution-scale AI deployment (December 2025), preparing first "AI-fluent" undergraduate class
+- **Open Data democratization**: NASA HEASARC (50 years of astrophysics data), Logan SRA (20 petabases processed in 30 hours), Oxford APAD (400% processing improvement)
+- **Global expansion**: South Korea (Seoul National), expanded UK (Oxford x2), France (Institut Pasteur Logan)
+- **Cultural heritage**: Oxford GLAM (21M museum objects, 11 ML models in 10 weeks, 90% cost reduction with Spot Instances)
 
-**Key Insight:** The expanded collection of 137 examples demonstrates AWS's multi-layered investment strategy in academic research: (1) **Build on Trainium** represents the cutting edge with $110M dedicated to AI/ML hardware access across 10 leading universities globally; (2) **Science Hubs** provide sustained institutional partnerships combining funding, fellowships, and collaborative research; (3) **Amazon Sustainability Data Initiative** democratizes access to critical climate and environmental datasets for researchers worldwide; (4) **Research Awards** support individual investigators across diverse domains. The geographic expansion (Japan, expanded UK presence) and temporal depth (ASDI datasets spanning 1998-2023) show AWS's commitment to global, long-term research infrastructure. The concentration in 2024 (71 examples, 52% of total) reflects accelerating cloud adoption, while strong 2023 representation (47 examples, 34%) demonstrates sustained momentum.
+**Key Insight:** The expanded collection of 146 examples reveals AWS's comprehensive research ecosystem operating at multiple scales: (1) **Institution-Scale Transformation** (Dartmouth Claude for Education, Cornell GenAI Center partnerships) bringing AI to entire campuses; (2) **Cutting-Edge Hardware Access** (Build on Trainium $110M, 10 universities, 40,000 chips); (3) **Open Data Democratization** (AWS Registry with NASA, Institut Pasteur, Seoul National, Oxford datasets enabling global research without data egress costs); (4) **Sustained Partnerships** (Science Hubs at 6 institutions combining funding, fellowships, research); (5) **Sustainability Infrastructure** (ASDI supporting 6 universities in climate modeling and air quality research). The temporal distribution shows accelerating adoption: 2024 dominates with 77 examples (53%), while 2023 maintains strong momentum with 49 examples (34%), and 2025 emerging with 8 examples including landmark Dartmouth partnership. Geographic diversity spans 15 countries with notable expansion into South Korea (bioinformatics), expanded UK presence (Oxford research leadership), and strengthened US Ivy League partnerships (Cornell, Dartmouth). The AWS Generative AI Innovation Center represents a new partnership model focused on production-ready GenAI deployment for research and education.
 
 ---
 
