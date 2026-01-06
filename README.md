@@ -1,8 +1,8 @@
-# 155 Academic Research Projects Powered by AWS
+# 152 Academic Research Projects Powered by AWS
 
 *A Global Survey of Cloud-Enabled Scientific Discovery*
 
-AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives, conservation biology to economic modeling. This compilation documents 155 verified AWS-specific examples spanning 18 countries (including Switzerland, Sweden, Singapore, Germany, Australia), prioritizing recent work from 2023-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center (4 institutions), Amazon Science Hubs (6 institutions), AWS Registry of Open Data (10+ university datasets), Amazon Sustainability Data Initiative (ASDI), AWS HPC Partner ecosystem (RONIN), and Amazon Research Awards.
+AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives, conservation biology to economic modeling. This compilation documents 152 verified AWS-specific ACADEMIC examples spanning 18 countries (including Switzerland, Sweden, Singapore, Germany, Australia), prioritizing recent work from 2023-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center (4 institutions), Amazon Science Hubs (6 institutions), AWS Registry of Open Data (10+ university datasets), Amazon Sustainability Data Initiative (ASDI), AWS HPC Partner ecosystem (RONIN), and Amazon Research Awards.
 
 ---
 
@@ -1472,45 +1472,9 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ---
 
-## Climate & Sustainability Research (2023)
-
-### 123. Realta Fusion (University of Wisconsin-Madison Incubation) – Plasma Simulation
-
-**Project:** Compute for Climate Fellowship 2023 recipient developing first-of-its-kind cloud-based plasma stability simulation. Achieved world record-breaking plasma generation in 2024.
-
-**AWS Services:** AWS cloud computing for simulation
-
-**Year:** 2023-2024
-
-**Key Achievement:** Previously only two supercomputers in US could handle these simulations with year-long waitlists; now accessible via cloud.
-
-**Source:** [AWS Startups Blog - Compute for Climate 2023](https://aws.amazon.com/blogs/startups/aws-and-ircai-announce-winners-of-the-2023-compute-for-climate-fellowship-and-open-applications-for-2024/)
-
-### 124. Coastal Carbon – Ocean Carbon Measurement
-
-**Project:** Compute for Climate Fellowship 2023 recipient building AI models for ocean carbon measurement, tracking underwater vegetation growth from satellites.
-
-**AWS Services:** AWS AI/ML services, AWS cloud storage
-
-**Year:** 2023
-
-**Source:** [IRCAI Compute for Climate](https://ircai.org/compute-for-climate-fellowship/)
-
-### 125. Xatoms – Water Purification Chemistry
-
-**Project:** Compute for Climate Fellowship 2023 recipient developing AI/ML algorithms for analyzing chemical data and simulating novel water purification molecules.
-
-**AWS Services:** Amazon Braket (quantum simulation), AWS storage
-
-**Year:** 2023
-
-**Source:** [AWS Startups Blog - Compute for Climate](https://aws.amazon.com/blogs/startups/aws-and-ircai-announce-winners-of-the-2023-compute-for-climate-fellowship-and-open-applications-for-2024/)
-
----
-
 ## Amazon Sustainability Data Initiative (ASDI) Partnerships
 
-### 126. Washington University in St. Louis – Global PM2.5 Air Quality Data
+### 123. Washington University in St. Louis – Global PM2.5 Air Quality Data
 
 **Project:** Randall Martin's Atmospheric Composition Analysis Group provides satellite-derived fine particulate matter (PM2.5) concentrations (SatPM2.5 dataset version GL06.02.04) covering 1998-2023 at high resolution (0.01° × 0.01°), hosted on AWS Registry of Open Data for global air quality and public health research.
 
@@ -1522,7 +1486,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Registry of Open Data - SatPM2.5](https://registry.opendata.aws/surface-pm2-5-v6gl/), [WashU ACAG](https://sites.wustl.edu/acag/datasets/surface-pm2-5/)
 
-### 127. Cornell University – Climate Simulation Research (ASDI)
+### 124. Cornell University – Climate Simulation Research (ASDI)
 
 **Project:** Cornell research team participating in Solar Radiation Management Governance Initiative program using ASDI resources for climate simulations studying impacts on agriculture, drought, flooding, and human health.
 
@@ -1534,7 +1498,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [About Amazon Sustainability](https://www.aboutamazon.com/news/sustainability/amazons-sustainable-data-initiative-helps-advance-climate-research)
 
-### 128. Rutgers University – Climate Intervention Research (ASDI)
+### 125. Rutgers University – Climate Intervention Research (ASDI)
 
 **Project:** Rutgers research team using Amazon Sustainability Data Initiative resources for climate simulation studies examining Earth and human system impacts in various global regions.
 
@@ -1544,7 +1508,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [About Amazon Sustainability](https://www.aboutamazon.com/news/sustainability/amazons-sustainable-data-initiative-helps-advance-climate-research)
 
-### 129. Colorado State University – Climate Modeling (ASDI)
+### 126. Colorado State University – Climate Modeling (ASDI)
 
 **Project:** Colorado State University participating in ASDI-supported program for climate simulations using advanced atmospheric models to study global climate impacts.
 
@@ -1556,7 +1520,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [About Amazon Sustainability](https://www.aboutamazon.com/news/sustainability/amazons-sustainable-data-initiative-helps-advance-climate-research)
 
-### 130. University of Washington – ASDI Climate Research
+### 127. University of Washington – ASDI Climate Research
 
 **Project:** University of Washington research team participating in climate research program using ASDI resources, studying climate and climate-intervention responses.
 
@@ -1570,7 +1534,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ## Generative AI Research & Innovation Center Partnerships
 
-### 131. Cornell University – AI-Powered Socratic Dialogue Chat
+### 128. Cornell University – AI-Powered Socratic Dialogue Chat
 
 **Project:** Cornell University collaborated with AWS Generative AI Innovation Center to develop an AI-powered Socratic Dialogue classroom chat-based assistant. Deployed across five courses in fall 2024, reaching over 500 students.
 
@@ -1582,7 +1546,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Public Sector Blog - Cornell Socratic Chat](https://aws.amazon.com/blogs/publicsector/transforming-classroom-conversations-cornell-universitys-ai-powered-socratic-chat-on-aws/)
 
-### 132. Weill Cornell Medicine – Medical Archive Digitization with GenAI
+### 129. Weill Cornell Medicine – Medical Archive Digitization with GenAI
 
 **Project:** Weill Cornell Medicine partnered with AWS Generative AI Innovation Center in May 2024 to digitize historical medical archives using generative AI, preserving and making accessible valuable medical historical documents.
 
@@ -1592,7 +1556,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Public Sector Blog - Weill Cornell Archives](https://aws.amazon.com/blogs/publicsector/weill-cornell-medicine-digitizes-historical-medical-archives-with-generative-ai-on-aws/)
 
-### 133. Dartmouth College – Claude for Education Partnership
+### 130. Dartmouth College – Claude for Education Partnership
 
 **Project:** Dartmouth became the first Ivy League institution to partner with AWS and Anthropic to launch AI at institutional scale. Partnership includes Claude for Education and Amazon Bedrock access for all students, faculty, and staff. Preparing Class of 2029 as Dartmouth's first "AI-fluent" undergraduate class.
 
@@ -1608,7 +1572,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ## Open Data Registry - University Research Datasets
 
-### 134. University of Oxford – APAD Air Pollution Detection
+### 131. University of Oxford – APAD Air Pollution Detection
 
 **Project:** Air Pollution Asset-Level Detection (APAD) project from Smith School of Enterprise and the Environment built ML models to analyze 1.2 million satellite images, mapping 1.5 million square miles in Indo-Gangetic Plain and identifying 50,000+ pollution sources including brick kilns and field burning.
 
@@ -1620,7 +1584,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Case Study - Oxford APAD](https://aws.amazon.com/solutions/case-studies/oxford-apad-case-study/)
 
-### 135. University of Oxford – GLAM Museum Collections ML Cataloging
+### 132. University of Oxford – GLAM Museum Collections ML Cataloging
 
 **Project:** Oxford Gardens, Libraries & Museums (GLAM) housing 21 million objects built and deployed 11 machine learning models in 10 weeks to automatically catalog artifacts, tackling massive object cataloging backlog. Focused on Ashmolean Museum coin collection.
 
@@ -1632,7 +1596,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Case Study - Oxford GLAM](https://aws.amazon.com/solutions/case-studies/oxford-case-study/)
 
-### 136. Seoul National University – Steinegger Lab Bioinformatics Datasets
+### 133. Seoul National University – Steinegger Lab Bioinformatics Datasets
 
 **Project:** Steinegger Lab provides biological databases and resources critical for protein sequence and structure analysis, supporting ColabFold, MMseqs2, and Foldseek/Foldcomp—high-performance computational tools with 800,000+ installations and 10M+ web service uses.
 
@@ -1644,7 +1608,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Registry of Open Data - Steinegger Lab](https://registry.opendata.aws/steineggerlab/)
 
-### 137. University of Colorado Boulder – DANRA Meteorological Reanalysis
+### 134. University of Colorado Boulder – DANRA Meteorological Reanalysis
 
 **Project:** Space Weather Technology, Research and Education Center (TREC) manages DANRA, a high-resolution meteorological reanalysis dataset for Denmark and Northwestern Europe covering September 1990 to December 2023.
 
@@ -1654,7 +1618,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Registry of Open Data - ASDI](https://registry.opendata.aws/collab/asdi/)
 
-### 138. NASA HEASARC – High Energy Astrophysics Data
+### 135. NASA HEASARC – High Energy Astrophysics Data
 
 **Project:** Beginning in 2023 as part of NASA's Year of Open Science, the High Energy Astrophysics Science Archive Research Center made data from 30+ missions spanning 50 years available on AWS, including Chandra, Fermi, NuSTAR, NICER, and Swift observatories.
 
@@ -1666,7 +1630,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [NASA HEASARC Cloud Access](https://heasarc.gsfc.nasa.gov/docs/archive/cloud.html), [AWS Registry - NASA HEASARC](https://registry.opendata.aws/nasa-heasarc/)
 
-### 139. Institut Pasteur – Logan SRA Genome Assembly
+### 136. Institut Pasteur – Logan SRA Genome Assembly
 
 **Project:** Logan project re-analyzed NCBI Sequence Read Archive (SRA) December 2023 freeze containing 50 petabases across 27 million sequencing datasets. Processed 20 petabases in 30 hours using 2.18M AWS Graviton cores to create compressed, accessible genome assemblies.
 
@@ -1682,7 +1646,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ## International University Research (Europe & Asia)
 
-### 140. Singapore Eye Research Institute – Retinal Disease Classification with AutoML
+### 137. Singapore Eye Research Institute – Retinal Disease Classification with AutoML
 
 **Project:** SERI evaluated Amazon Rekognition AutoML platform for classifying retinal diseases from optical coherence tomography (OCT) scans, demonstrating impeccable diagnostic performance in categorizing various retinal diseases using OCT imaging.
 
@@ -1694,7 +1658,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Public Sector Blog - Singapore Eye Research Institute](https://aws.amazon.com/blogs/publicsector/singapore-eye-research-institute-categorizes-retinal-diseases-using-amazon-rekognition/)
 
-### 141. ETH Zurich & EPFL – Apertus Open-Source Multilingual LLM
+### 138. ETH Zurich & EPFL – Apertus Open-Source Multilingual LLM
 
 **Project:** Swiss AI Initiative jointly launched by ETH Zurich and EPFL released Apertus, a family of open-source LLMs (70B and 8B models) supporting 1,000+ languages, trained on Swiss ALPS supercomputer with 4,000+ NVIDIA GH200 GPUs. AWS provides global accessibility through Amazon SageMaker AI.
 
@@ -1706,7 +1670,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Alps Blog - Apertus LLM](https://aws.amazon.com/blogs/alps/switzerlands-open-source-apertus-llms-now-available-on-amazon-sagemaker-ai/)
 
-### 142. IU International University of Applied Sciences – EdTech Cloud Migration (Germany)
+### 139. IU International University of Applied Sciences – EdTech Cloud Migration (Germany)
 
 **Project:** Germany's largest university by enrollment (100,000+ students) and Europe's fastest-growing university migrated to AWS in 2020 to improve access to education for everybody, everywhere, at any time. Uses 38 AWS services hosted in Europe (Frankfurt) Region powered by 95%+ renewable energy.
 
@@ -1718,7 +1682,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Case Study - IU International University](https://aws.amazon.com/solutions/case-studies/iu-international-university-of-applied-sciences/)
 
-### 143. NGI Sweden / SciLifeLab – Genomics Cloud Computing Infrastructure
+### 140. NGI Sweden / SciLifeLab – Genomics Cloud Computing Infrastructure
 
 **Project:** National Genomics Infrastructure (NGI) at SciLifeLab (one of Europe's largest sequencing facilities with Karolinska Institutet staff) uses AWS for analyzing massive genomics data pipelines, storing petabytes of data, and sharing results with collaborators. Hosts AWS In Spotlight Webinar Series on cloud computing initiatives.
 
@@ -1734,7 +1698,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ## AWS HPC Platforms & Partner Solutions for Research
 
-### 144. University of Texas at Austin – UT Sage AI Tutor Platform
+### 141. University of Texas at Austin – UT Sage AI Tutor Platform
 
 **Project:** UT Austin partnered with AWS Generative AI Innovation Center to develop UT Sage, a faculty-guided AI tutor platform serving 52,000 students. Instructors create customized virtual tutors aligned with course content for Socratic-style dialogue. Launched beta March 2025, general availability August 2025.
 
@@ -1746,7 +1710,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Public Sector Blog - UT Sage](https://aws.amazon.com/blogs/publicsector/personalized-learning-support-at-scale-how-ut-austin-built-a-generative-ai-tutor-platform-on-aws/), [UT Austin News](https://tech.utexas.edu/news/ut-austin-and-aws-launch-ut-sage-ut-austins-homegrown-ai-tutor-platform)
 
-### 145. University of Oxford INET – Agent-Based Economic Modeling
+### 142. University of Oxford INET – Agent-Based Economic Modeling
 
 **Project:** Institute for New Economic Thinking (INET) at Oxford Martin School collaborated with AWS Global Impact Compute team to scale agent-based models exploring macroprudential policies' impact on financial stability and societal inequality. Dr. Jagoda Kaszowska-Mojsa led research using HPC on AWS.
 
@@ -1758,7 +1722,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS HPC Blog - Agent-Based Models](https://aws.amazon.com/blogs/hpc/how-agent-based-models-powered-by-hpc-are-enabling-large-scale-economic-simulations/)
 
-### 146. UC Davis Health – Cloud Innovation Center Fighting Health Misinformation
+### 143. UC Davis Health – Cloud Innovation Center Fighting Health Misinformation
 
 **Project:** UC Davis Health Cloud Innovation Center (launched November 2021) partnered with AWS, University of Pittsburgh, and UIUC to develop Project Heal—an open source AI/ML toolkit using generative AI to combat health misinformation. Empowers public health officials to generate targeted communications addressing misinformation.
 
@@ -1770,7 +1734,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [AWS Public Sector Blog - UC Davis Project Heal](https://aws.amazon.com/blogs/publicsector/uc-davis-health-cloud-innovation-center-powered-by-aws-uses-generative-ai-to-fight-health-misinformation/)
 
-### 147. University of Adelaide – RONIN HPC Platform for Genomics
+### 144. University of Adelaide – RONIN HPC Platform for Genomics
 
 **Project:** University of Adelaide uses RONIN (AWS Select Consulting Partner) to provide researchers with easy access to AWS cloud computing without specialized cloud expertise. Analyzes genomics data in 6 hours instead of two weeks. Bioinformatics workshop ran simultaneously across 8 locations with 152 participants.
 
@@ -1782,7 +1746,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [University of Adelaide - RONIN Access](https://www.adelaide.edu.au/technology/research/high-performance-computing/ronin-access-aws)
 
-### 148. University of Sydney – Wildlife Genomics Conservation Research
+### 145. University of Sydney – Wildlife Genomics Conservation Research
 
 **Project:** Australasian Wildlife Genomics Group uses RONIN on AWS to sequence genomes of Tasmanian devil and other endangered species. Team led by Dr. Carolyn Hogg completed 18 months of work in six weeks. Australasian Genomes data repository hosts genomic data for Threatened Species Initiative.
 
@@ -1796,7 +1760,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ---
 
-## Combined Summary (155 Examples Total)
+## Combined Summary (152 Examples Total)
 
 **Geographic Distribution (Combined):**
 - **United States: 93 examples** (UT Austin, UC Davis, Cornell x2, Dartmouth, U Colorado, NASA + previous)
@@ -1865,13 +1829,12 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 - **Amazon Sustainability Data Initiative (ASDI)**: 6 universities (U Colorado, WashU St. Louis, Cornell, Rutgers, Colorado State, UW)
 - **Amazon Research Awards**: 15+ recipients across multiple years
 - **AWS HPC Partner Ecosystem (RONIN)**: 3 universities (UBC, University of Adelaide, University of Sydney)
-- **Compute for Climate Fellowship**: 3 recipients (Realta Fusion, Coastal Carbon, Xatoms)
 - **AWS Cloud Credit for Research**: Multiple institutions
 - **NIH STRIDES**: Multiple institutions (see earlier examples)
 - **Claude for Education**: 1 institution (Dartmouth - first Ivy League)
 
-**Phase 3+ Highlights (Examples 101-155):**
-- **55 new examples** across four search phases:
+**Phase 3+ Highlights (Examples 101-152):**
+- **52 new ACADEMIC examples** across four search phases:
   - **Phase 3**: Build on Trainium (7 universities), Science Hubs (6 institutions), ASDI partnerships (5 universities), Canadian research computing (4 universities)
   - **Phase 4A**: AWS case studies (2 Oxford projects), Generative AI Innovation Center (3 Cornell institutions), Open Data Registry (6 datasets)
   - **Phase 4B**: International expansion (Switzerland x2, Sweden, Singapore, Germany)
@@ -1884,7 +1847,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 - **Global expansion**: Switzerland (ETH/EPFL Apertus 1000+ languages), Sweden (NGI SciLifeLab genomics), Singapore (SERI retinal disease AI), Australia expanded (Adelaide, Sydney)
 - **Cultural heritage**: Oxford GLAM (21M museum objects, 11 ML models in 10 weeks, 90% cost reduction)
 
-**Key Insight:** The expanded collection of 155 examples reveals AWS's comprehensive research ecosystem operating at multiple scales: (1) **Institution-Scale AI Transformation** (UT Austin UT Sage 52K students, Dartmouth Claude, Cornell GenAI partnerships) bringing production AI to entire campuses; (2) **HPC Democratization** (RONIN ecosystem enabling 10 days→5 hours speedups at Adelaide/Sydney, UBC 8,640-core clusters with 75% efficiency); (3) **Cutting-Edge Hardware Access** (Build on Trainium $110M, 10 universities, 40,000 chips); (4) **Open Data Infrastructure** (AWS Registry with NASA 50-year astrophysics archive, Logan 20 petabases in 30 hours, Sydney Wildlife conservation genomes—all without egress costs); (5) **Sustained Research Partnerships** (Science Hubs, Cloud Innovation Centers at UC Davis Health/UBC/ASU); (6) **Sustainability & Public Health** (ASDI supporting climate research, UC Davis Project Heal combating health misinformation). The temporal distribution shows accelerating adoption: 2024 dominates with 83 examples (54%), 2023 maintains strong momentum with 50 examples (32%), and 2025 emerging with 10 examples including landmark UT Austin partnership. Geographic diversity spans 18 countries with strategic expansion: Switzerland (ETH/EPFL 1000+ language LLM), Sweden (Europe's largest genomics facility), Singapore (clinical AI), Australia (RONIN HPC ecosystem), strengthening global research infrastructure. The AWS Generative AI Innovation Center and RONIN HPC Partner ecosystem represent complementary partnership models—production-ready GenAI deployment for education/research, and accessible HPC for researchers without cloud expertise.
+**Key Insight:** The expanded collection of 152 ACADEMIC examples reveals AWS's comprehensive research ecosystem operating at multiple scales: (1) **Institution-Scale AI Transformation** (UT Austin UT Sage 52K students, Dartmouth Claude, Cornell GenAI partnerships) bringing production AI to entire campuses; (2) **HPC Democratization** (RONIN ecosystem enabling 10 days→5 hours speedups at Adelaide/Sydney, UBC 8,640-core clusters with 75% efficiency); (3) **Cutting-Edge Hardware Access** (Build on Trainium $110M, 10 universities, 40,000 chips); (4) **Open Data Infrastructure** (AWS Registry with NASA 50-year astrophysics archive, Logan 20 petabases in 30 hours, Sydney Wildlife conservation genomes—all without egress costs); (5) **Sustained Research Partnerships** (Science Hubs, Cloud Innovation Centers at UC Davis Health/UBC/ASU); (6) **Sustainability & Public Health** (ASDI supporting climate research, UC Davis Project Heal combating health misinformation). The temporal distribution shows accelerating adoption: 2024 dominates with 83 examples (54%), 2023 maintains strong momentum with 50 examples (32%), and 2025 emerging with 10 examples including landmark UT Austin partnership. Geographic diversity spans 18 countries with strategic expansion: Switzerland (ETH/EPFL 1000+ language LLM), Sweden (Europe's largest genomics facility), Singapore (clinical AI), Australia (RONIN HPC ecosystem), strengthening global research infrastructure. The AWS Generative AI Innovation Center and RONIN HPC Partner ecosystem represent complementary partnership models—production-ready GenAI deployment for education/research, and accessible HPC for researchers without cloud expertise.
 
 ---
 
