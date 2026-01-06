@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Academic Research Gallery</title>
+    <meta name="description" content="172 verified AWS-powered academic research projects spanning 2021-2025">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="bracket">[</span>aws<span class="comma">,</span>research<span class="bracket">]</span></h1>
+            <p class="tagline">A global survey of cloud-enabled scientific discovery</p>
+            <p class="subtitle">172 academic research projects • 18 countries • 2021-2025</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search by institution, project, or keyword..." />
+            </div>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Domain:</label>
+                    <button class="filter-btn active" data-filter="domain" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="domain" data-value="AI/ML">AI/ML</button>
+                    <button class="filter-btn" data-filter="domain" data-value="Genomics">Genomics</button>
+                    <button class="filter-btn" data-filter="domain" data-value="Medical">Medical</button>
+                    <button class="filter-btn" data-filter="domain" data-value="Climate">Climate</button>
+                    <button class="filter-btn" data-filter="domain" data-value="Physics">Physics</button>
+                    <button class="filter-btn" data-filter="domain" data-value="Education">Education</button>
+                </div>
+
+                <div class="filter-group">
+                    <label>Year:</label>
+                    <button class="filter-btn active" data-filter="year" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="year" data-value="2025">2025</button>
+                    <button class="filter-btn" data-filter="year" data-value="2024">2024</button>
+                    <button class="filter-btn" data-filter="year" data-value="2023">2023</button>
+                    <button class="filter-btn" data-filter="year" data-value="2021-2022">2021-22</button>
+                </div>
+
+                <div class="filter-group">
+                    <label>Program:</label>
+                    <button class="filter-btn active" data-filter="program" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="program" data-value="Trainium">Trainium</button>
+                    <button class="filter-btn" data-filter="program" data-value="Science Hub">Science Hub</button>
+                    <button class="filter-btn" data-filter="program" data-value="GenAI">GenAI</button>
+                    <button class="filter-btn" data-filter="program" data-value="Open Data">Open Data</button>
+                    <button class="filter-btn" data-filter="program" data-value="RONIN">RONIN</button>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button id="shuffle" class="action-btn">🔀 Shuffle</button>
+                <button id="reset" class="action-btn">↺ Reset</button>
+            </div>
+
+            <div class="count">
+                Showing <span id="count">172</span> of 172 projects
+            </div>
+        </div>
+
+        <div class="grid" id="grid">
+            <!-- Cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Data compiled from AWS blogs, university announcements, case studies, and research publications</p>
+            <p>Built with ♥ for researchers • <a href="https://github.com/scttfrdmn/aws-research-examples" target="_blank">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
