@@ -1,8 +1,8 @@
-# 167 Academic Research Projects Powered by AWS
+# 172 Academic Research Projects Powered by AWS
 
 *A Global Survey of Cloud-Enabled Scientific Discovery*
 
-AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives, conservation biology to economic modeling. This compilation documents 167 verified AWS-specific ACADEMIC examples spanning 18 countries (including Switzerland, Sweden, Singapore, Germany, Australia), covering 2021-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center (4 institutions), Amazon Science Hubs (6 institutions), AWS Registry of Open Data (10+ university datasets), Amazon Sustainability Data Initiative (ASDI), AWS HPC Partner ecosystem (RONIN), and Amazon Research Awards.
+AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives, conservation biology to economic modeling. This compilation documents 172 verified AWS-specific ACADEMIC examples spanning 18 countries (including Switzerland, Sweden, Singapore, Germany, Australia), covering 2021-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center (4 institutions), Amazon Science Hubs (6 institutions), AWS Registry of Open Data (10+ university datasets), Amazon Sustainability Data Initiative (ASDI), AWS HPC Partner ecosystem (RONIN), and Amazon Research Awards.
 
 ---
 
@@ -1874,6 +1874,66 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Source:** [Yale Research](https://research.yale.edu/announcements/new-secure-research-computing-platforms-available-large-scale-data-analysis)
 
+### 161. University of California Irvine – Petabyte-Scale Research Data Backup
+
+**Project:** UCI backed up over 5 petabytes of research data (250+ million files) from ~1,500 faculty research lab environments using a custom system with rclone and AWS services. Automated daily backups to S3 with lifecycle policies moving data to S3 Glacier Deep Archive for long-term storage.
+
+**AWS Services:** Amazon S3, S3 Glacier Deep Archive, Amazon CloudWatch, Amazon DynamoDB, AWS Lambda, AWS Step Functions, S3 Batch Operations, Amazon EventBridge, Amazon Athena
+
+**Year:** 2021-present
+
+**Key Achievement:** Centralized backup solution for decentralized research labs at scale; efficient cost model for petabyte-scale research data protection.
+
+**Source:** [AWS Storage Blog - UC Irvine](https://aws.amazon.com/blogs/storage/university-of-california-irvine-backs-up-petabytes-of-research-data-to-aws/)
+
+### 162. UC Santa Cruz Genomics Institute – Dockstore AWS Integration
+
+**Project:** UC Santa Cruz Genomics Institute collaborated with AWS to integrate Dockstore bioinformatics workflow platform with Amazon Genomics CLI, allowing researchers to quickly execute bioinformatics pipelines on AWS's global cloud infrastructure.
+
+**AWS Services:** Amazon Genomics CLI, AWS compute infrastructure, workflow execution services
+
+**Year:** 2022 (April)
+
+**Key Achievement:** Democratized access to cloud-based genomics analysis; enabled rapid execution of complex bioinformatics workflows without cloud expertise.
+
+**Source:** [UC Santa Cruz News](https://news.ucsc.edu/2022/04/dockstore-aws-integration/), [AWS Case Study](https://aws.amazon.com/solutions/case-studies/uc-santa-cruz-genomics-institute/)
+
+### 163. Baylor College of Medicine – All of Us Research Genomics Scaling
+
+**Project:** Baylor College of Medicine Human Genome Sequencing Center scaled the NIH All of Us Research Program to deliver genomic data to over one million individuals. In early 2021, production quadrupled to over 4,000 samples per month—four times greater than any previous workload.
+
+**AWS Services:** AWS Step Functions, AWS Batch, AWS Lambda, Amazon Athena, Amazon QuickSight, Amazon EC2
+
+**Year:** 2021-2024
+
+**Key Achievement:** Reduced bioinformatic analysis from 80 hours to 2 hours per sample; scaled to unprecedented production levels using AWS serverless and batch compute.
+
+**Source:** [AWS Public Sector Blog - Baylor](https://aws.amazon.com/blogs/publicsector/building-resilient-scalable-clinical-genomics-pipeline-aws/)
+
+### 164. North Carolina State University – NCICS Climate Data Analysis
+
+**Project:** NC State's North Carolina Institute for Climate Studies (NCICS) used AWS for large-scale climate dataset analysis as part of Amazon Sustainability Data Initiative, processing temperature and albedo data at unprecedented scales.
+
+**AWS Services:** AWS Batch, Amazon EC2, Array Jobs, AWS compute infrastructure
+
+**Year:** 2021-2022
+
+**Key Achievement:** Completed albedo processing 50x faster on AWS than on-premises at less than 1/6th the cost; processed 100-member temperature ensemble in 6.5 days vs. over a month locally.
+
+**Source:** [AWS Public Sector Blog - Climate Research](https://aws.amazon.com/blogs/publicsector/embracing-the-cloud-for-climate-research/), [Amazon Sustainability](https://sustainability.aboutamazon.com/environment/the-cloud/amazon-sustainability-data-initiative)
+
+### 165. University of Minnesota – Mental Health Machine Learning
+
+**Project:** Assistant Professor Stevie Chancellor received Amazon Research Award (Spring/Summer 2022) for "Collaborative and socially translucent task instructions for emotionally heavy and subjective annotation tasks," using machine learning to improve mental health data analysis.
+
+**AWS Services:** AWS AI/ML services, AWS promotional credits, compute infrastructure
+
+**Year:** 2022
+
+**Key Achievement:** Applied machine learning techniques to sensitive mental health data annotation and analysis.
+
+**Source:** [University of Minnesota CSE News](https://cse.umn.edu/cs/news/stevie-chancellor-earns-amazon-grant-machine-learning-and-mental-health-project)
+
 ---
 
 ## AWS HPC Platforms & Partner Solutions for Research
@@ -1940,10 +2000,10 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ---
 
-## Combined Summary (167 Examples Total)
+## Combined Summary (172 Examples Total)
 
 **Geographic Distribution (Combined):**
-- **United States: 107 examples** (11 new 2021-2022: Princeton, JHU APL, JHU, CMU, MIT, Georgia Tech, Northwestern, UW, Stanford, Columbia, Yale + previous)
+- **United States: 112 examples** (16 new 2021-2022: UC Irvine, UC Santa Cruz, Baylor, NC State, U Minnesota + Princeton, JHU APL, JHU, CMU, MIT, Georgia Tech, Northwestern, UW, Stanford, Columbia, Yale + previous)
 - **United Kingdom: 11 examples** (University of Sheffield + Oxford INET, Oxford APAD, Oxford GLAM + previous)
 - **Australia: 7 examples** (University of Sydney, University of Adelaide + previous)
 - **Canada: 7 examples** (Alberta, McMaster, UBC x3)
@@ -1965,15 +2025,16 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 **Temporal Distribution (Combined):**
 - **2025: 10 examples (6%)** (UT Sage GA Aug 2025, Apertus LLM, Dartmouth Claude + previous)
-- **2024: 83 examples (50%)** (UT Sage beta, Oxford INET, Singapore Eye, IU Germany, NGI Sweden, Cornell x2, Oxford x2 + previous)
-- **2023: 50 examples (30%)** (UC Davis Project Heal, Adelaide/Sydney RONIN, Logan SRA, NASA HEASARC + previous)
-- **2020-2022: 24 examples (14%)** (11 new from 2021-2022: Science Hubs MIT/UW/Columbia, JHU partnerships, CMU Fellows, Stanford DDRCC, Yale SpinupPlus, Princeton/Georgia Tech/Northwestern + previous 13)
+- **2024: 83 examples (48%)** (UT Sage beta, Oxford INET, Singapore Eye, IU Germany, NGI Sweden, Cornell x2, Oxford x2 + previous)
+- **2023: 50 examples (29%)** (UC Davis Project Heal, Adelaide/Sydney RONIN, Logan SRA, NASA HEASARC + previous)
+- **2020-2022: 29 examples (17%)** (20 new from 2021-2022: UC Irvine 5PB backup, UC Santa Cruz Dockstore, Baylor All of Us 4K samples/month, NC State NCICS 50x faster, U Minnesota mental health ML + Science Hubs MIT/UW/Columbia, JHU partnerships, CMU Fellows, Stanford DDRCC, Yale SpinupPlus, Princeton/Georgia Tech/Northwestern + previous 9)
 
 **Research Domains (Combined):**
-- **Computer Science & AI/ML: 58** (UT Sage, Oxford INET economics, Apertus LLM, GenAI Innovation Center, Trainium, Science Hubs)
-- **Life Sciences & Genomics: 23** (UC Santa Cruz Toil workflow, San Francisco State protein ML + Sydney Wildlife, Adelaide RONIN, NGI Sweden, Logan SRA + previous)
+- **Computer Science & AI/ML: 59** (U Minnesota mental health ML + UT Sage, Oxford INET economics, Apertus LLM, GenAI Innovation Center, Trainium, Science Hubs)
+- **Life Sciences & Genomics: 25** (UC Santa Cruz Dockstore 2022, Baylor All of Us + UC Santa Cruz Toil workflow, San Francisco State protein ML + Sydney Wildlife, Adelaide RONIN, NGI Sweden, Logan SRA + previous)
 - **Medical Research & Healthcare: 22** (University of Sheffield health data TRE, Harvard Medical School patient simulations + UC Davis misinformation, Singapore Eye, Weill Cornell + previous)
-- **Climate & Environmental Science: 20** (APAD air pollution, DANRA meteorology, ASDI)
+- **Climate & Environmental Science: 21** (NC State NCICS 50x faster climate data + APAD air pollution, DANRA meteorology, ASDI + previous)
+- **Data Management & Infrastructure: 3** (UC Irvine 5PB backup + previous)
 - **Education Technology & Learning: 11** (UT Sage 52K students, IU Germany 100K students, Dartmouth Claude, Cornell Socratic + previous)
 - **Economics & Social Science: 2** (Oxford INET agent-based models, UBC economic simulations)
 - **Conservation Biology: 1** (Sydney Wildlife Genomics - Tasmanian devil)
@@ -2015,18 +2076,18 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 - **NSF CloudBank**: Hundreds of research projects, 1,500+ students
 - **Claude for Education**: 1 institution (Dartmouth - first Ivy League)
 
-**Phase 3-5 Highlights (Examples 101-167):**
-- **67 new ACADEMIC examples** across five search phases:
+**Phase 3-5 Highlights (Examples 101-172):**
+- **72 new ACADEMIC examples** across five search phases:
   - **Phase 3**: Build on Trainium (7 universities), Science Hubs (6 institutions), ASDI partnerships (5 universities), Canadian research computing (4 universities)
   - **Phase 4A**: AWS case studies (2 Oxford projects), Generative AI Innovation Center (3 Cornell institutions), Open Data Registry (6 datasets)
   - **Phase 4B**: International expansion (Switzerland x2, Sweden, Singapore, Germany)
   - **Phase 4C+4D**: AWS HPC/Partner ecosystem (UT Austin, Oxford INET, UC Davis, Adelaide, Sydney)
-  - **Phase 5**: 2021-2022 major expansion (15 examples):
+  - **Phase 5**: 2021-2022 major expansion (20 examples):
     - **Science Hubs**: MIT 2021, UW 2022, Columbia CAIT 2020-2025 (multi-year research partnerships)
     - **Major Partnerships**: Johns Hopkins Interactive AI Initiative (5-year, 2022), Johns Hopkins APL BossDB (2021), Carnegie Mellon Graduate Fellows (2021+)
     - **Research Infrastructure**: Stanford Snyder Lab DDRCC (2022), Yale SpinupPlus (2021-2022), University of Sheffield Data Connect TRE (2021)
     - **Institutional Programs**: Princeton training (2021), Georgia Tech credits (2021-2022), Northwestern pipeline (2021)
-    - **Research Projects**: Harvard Medical School simulations (Feb 2021), San Francisco State protein ML, UC Santa Cruz genomics workflow
+    - **Research Projects**: UC Irvine 5PB backup (2021), UC Santa Cruz Dockstore (Apr 2022), Baylor All of Us 4K samples/month (early 2021), NC State NCICS 50x faster climate (2021-2022), U Minnesota mental health ML (2022), Harvard Medical School simulations (Feb 2021), San Francisco State protein ML, UC Santa Cruz genomics workflow
 - **Generative AI Innovation Center partnerships**: UT Austin (UT Sage, 52K students), Cornell (Socratic Chat, 500+ students), UC Davis (Project Heal health misinformation), Weill Cornell (medical archives)
 - **Dartmouth Claude for Education**: First Ivy League institution-scale AI deployment (December 2025)
 - **RONIN HPC Partner Ecosystem**: University of Sydney (10 days→5 hours, wildlife genomics), University of Adelaide (2 weeks→6 hours, genomics), UBC (75% CPU efficiency, 8,640-core clusters)
@@ -2035,7 +2096,7 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 - **Global expansion**: Switzerland (ETH/EPFL Apertus 1000+ languages), Sweden (NGI SciLifeLab genomics), Singapore (SERI retinal disease AI), Australia expanded (Adelaide, Sydney)
 - **Cultural heritage**: Oxford GLAM (21M museum objects, 11 ML models in 10 weeks, 90% cost reduction)
 
-**Key Insight:** The expanded collection of 167 ACADEMIC examples (spanning 2021-2025) reveals AWS's comprehensive research ecosystem operating at multiple scales: (1) **Institution-Scale AI Transformation** (UT Austin UT Sage 52K students, Dartmouth Claude, Cornell GenAI partnerships) bringing production AI to entire campuses; (2) **HPC Democratization** (RONIN ecosystem enabling 10 days→5 hours speedups at Adelaide/Sydney, UBC 8,640-core clusters with 75% efficiency); (3) **Cutting-Edge Hardware Access** (Build on Trainium $110M, 10 universities, 40,000 chips); (4) **Open Data Infrastructure** (AWS Registry with NASA 50-year astrophysics archive, Logan 20 petabases in 30 hours, Sydney Wildlife conservation genomes—all without egress costs); (5) **Sustained Research Partnerships** (Science Hubs at MIT/UW/Columbia with multi-year funding; Johns Hopkins 5-year Interactive AI Initiative; CMU Graduate Fellows; Cloud Innovation Centers at UC Davis Health/UBC/ASU); (6) **Sustainability & Public Health** (ASDI supporting climate research, UC Davis Project Heal combating health misinformation). The 2021-2022 expansion revealed foundational partnerships: Amazon Science Hubs launched at MIT (October 2021) and UW (February 2022); Johns Hopkins $5M+ partnerships for interactive AI and neuroscience data; enterprise research computing platforms at Yale and Stanford; institutional AWS programs at Carnegie Mellon, Princeton, Georgia Tech, and Northwestern. The temporal distribution shows accelerating adoption: 2024 dominates with 83 examples (50%), 2023 maintains strong momentum with 50 examples (30%), 2021-2022 now well-represented with 24 examples (14%), and 2025 emerging with 10 examples including landmark UT Austin partnership. Geographic diversity spans 18 countries with strategic expansion: Switzerland (ETH/EPFL 1000+ language LLM), Sweden (Europe's largest genomics facility), Singapore (clinical AI), Australia (RONIN HPC ecosystem), strengthening global research infrastructure. The AWS Generative AI Innovation Center and RONIN HPC Partner ecosystem represent complementary partnership models—production-ready GenAI deployment for education/research, and accessible HPC for researchers without cloud expertise.
+**Key Insight:** The expanded collection of 172 ACADEMIC examples (spanning 2021-2025) reveals AWS's comprehensive research ecosystem operating at multiple scales: (1) **Institution-Scale AI Transformation** (UT Austin UT Sage 52K students, Dartmouth Claude, Cornell GenAI partnerships) bringing production AI to entire campuses; (2) **HPC Democratization** (RONIN ecosystem enabling 10 days→5 hours speedups at Adelaide/Sydney, UBC 8,640-core clusters with 75% efficiency); (3) **Cutting-Edge Hardware Access** (Build on Trainium $110M, 10 universities, 40,000 chips); (4) **Open Data Infrastructure** (AWS Registry with NASA 50-year astrophysics archive, Logan 20 petabases in 30 hours, Sydney Wildlife conservation genomes—all without egress costs); (5) **Sustained Research Partnerships** (Science Hubs at MIT/UW/Columbia with multi-year funding; Johns Hopkins 5-year Interactive AI Initiative; CMU Graduate Fellows; Cloud Innovation Centers at UC Davis Health/UBC/ASU); (6) **Sustainability & Public Health** (ASDI supporting climate research, UC Davis Project Heal combating health misinformation). The 2021-2022 expansion revealed foundational partnerships: Amazon Science Hubs launched at MIT (October 2021) and UW (February 2022); Johns Hopkins $5M+ partnerships for interactive AI and neuroscience data; enterprise research computing platforms at Yale and Stanford; institutional AWS programs at Carnegie Mellon, Princeton, Georgia Tech, and Northwestern. The temporal distribution shows accelerating adoption: 2024 dominates with 83 examples (50%), 2023 maintains strong momentum with 50 examples (30%), 2021-2022 now well-represented with 24 examples (14%), and 2025 emerging with 10 examples including landmark UT Austin partnership. Geographic diversity spans 18 countries with strategic expansion: Switzerland (ETH/EPFL 1000+ language LLM), Sweden (Europe's largest genomics facility), Singapore (clinical AI), Australia (RONIN HPC ecosystem), strengthening global research infrastructure. The AWS Generative AI Innovation Center and RONIN HPC Partner ecosystem represent complementary partnership models—production-ready GenAI deployment for education/research, and accessible HPC for researchers without cloud expertise.
 
 ---
 
