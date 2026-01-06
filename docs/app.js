@@ -138,9 +138,11 @@ function renderProjects(projectsToRender) {
 
 // Create a card element
 function createCard(project, index) {
-    const card = document.createElement('div');
+    const card = document.createElement('article');
     card.className = 'card';
     card.style.animationDelay = `${index * 0.05}s`;
+    card.setAttribute('itemscope', '');
+    card.setAttribute('itemtype', 'https://schema.org/ResearchProject');
 
     // Determine primary domain for tag coloring
     const primaryDomain = project.domains[0] || 'default';
@@ -148,22 +150,35 @@ function createCard(project, index) {
 
     card.innerHTML = `
         <div class="card-header">
-            <div class="institution">${project.institution}</div>
-            <div class="year-badge">${project.year}</div>
+            <div class="institution" itemprop="sourceOrganization">${project.institution}</div>
+            <div class="year-badge"><time itemprop="datePublished">${project.year}</time></div>
         </div>
-        <div class="project-title">${project.project}</div>
-        <div class="tags">
+        <h3 class="project-title" itemprop="name">${project.project}</h3>
+        <div class="tags" itemprop="keywords">
             ${project.domains.map(domain => {
                 const className = getDomainClass(domain);
                 return `<span class="tag ${className}">${domain}</span>`;
             }).join('')}
         </div>
-        <div class="achievement">${project.achievement}</div>
+        <p class="achievement" itemprop="description">${project.achievement}</p>
+        <meta itemprop="url" content="${project.url}">
+        <meta itemprop="spatialCoverage" content="${project.country}">
     `;
 
     // Click to open URL
     card.addEventListener('click', () => {
-        window.open(project.url, '_blank');
+        window.open(project.url, '_blank', 'noopener,noreferrer');
+    });
+
+    // Keyboard accessibility
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'link');
+    card.setAttribute('aria-label', `${project.project} at ${project.institution}`);
+    card.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            window.open(project.url, '_blank', 'noopener,noreferrer');
+        }
     });
 
     return card;
