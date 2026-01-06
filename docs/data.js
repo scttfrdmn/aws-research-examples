@@ -197,8 +197,8 @@ const projects = [
     },
     {
         "id": "11",
-        "institution": "National Center for Atmospheric Research",
-        "country": "NCAR",
+        "institution": "National Center for Atmospheric Research (NCAR)",
+        "country": "United States",
         "project": "Climate Model Simulations",
         "year": "2021-ongoing",
         "domains": [
@@ -360,8 +360,8 @@ const projects = [
     },
     {
         "id": "20",
-        "institution": "Sloan Digital Sky Survey",
-        "country": "SDSS",
+        "institution": "Sloan Digital Sky Survey (SDSS)",
+        "country": "United States",
         "project": "Sloan Digital Sky Survey (SDSS)",
         "year": "2008-ongoing",
         "domains": [
@@ -1409,10 +1409,11 @@ const projects = [
     {
         "id": "79",
         "institution": "King Hamad University Hospital",
-        "country": "Bahrain",
-        "project": "Medical Storage",
+        "country": "United States",
+        "project": "Medical Storage (Bahrain)",
         "year": "2024",
         "domains": [
+            "AI/ML",
             "Medical"
         ],
         "programs": [],
@@ -1678,8 +1679,8 @@ const projects = [
     {
         "id": "95",
         "institution": "RMIT University",
-        "country": "Additional",
-        "project": "RACE Cloud Supercomputing Hub",
+        "country": "United States",
+        "project": "RACE Cloud Supercomputing Hub (Additional)",
         "year": "2024 (presented at SC24)",
         "domains": [
             "Other"
@@ -1880,8 +1881,8 @@ const projects = [
     },
     {
         "id": "102d",
-        "institution": "University of Illinois Urbana-Champaign",
-        "country": "UIUC",
+        "institution": "University of Illinois Urbana-Champaign (UIUC)",
+        "country": "United States",
         "project": "Foundation Model Training",
         "year": "2024-ongoing",
         "domains": [
@@ -1958,8 +1959,8 @@ const projects = [
     {
         "id": "103",
         "institution": "Multiple Universities",
-        "country": "Generative AI",
-        "project": "Amazon Research Awards Spring 2023",
+        "country": "United States",
+        "project": "Amazon Research Awards Spring 2023 (Generative AI)",
         "year": "2023",
         "domains": [
             "AI/ML"
@@ -2342,8 +2343,8 @@ const projects = [
     {
         "id": "124",
         "institution": "Cornell University",
-        "country": "ASDI",
-        "project": "Climate Simulation Research",
+        "country": "United States",
+        "project": "Climate Simulation Research (ASDI)",
         "year": "2023-ongoing",
         "domains": [
             "Genomics",
@@ -2364,8 +2365,8 @@ const projects = [
     {
         "id": "125",
         "institution": "Rutgers University",
-        "country": "ASDI",
-        "project": "Climate Intervention Research",
+        "country": "United States",
+        "project": "Climate Intervention Research (ASDI)",
         "year": "2023-ongoing",
         "domains": [
             "AI/ML",
@@ -2384,8 +2385,8 @@ const projects = [
     {
         "id": "126",
         "institution": "Colorado State University",
-        "country": "ASDI",
-        "project": "Climate Modeling",
+        "country": "United States",
+        "project": "Climate Modeling (ASDI)",
         "year": "2023-ongoing",
         "domains": [
             "Climate"
@@ -2911,8 +2912,8 @@ const projects = [
     {
         "id": "159",
         "institution": "Columbia University",
-        "country": "CAIT) Research Fellows",
-        "project": "Center for AI Technology",
+        "country": "United States",
+        "project": "Center for AI Technology (CAIT) Research Fellows",
         "year": "2021-present",
         "domains": [
             "AI/ML"

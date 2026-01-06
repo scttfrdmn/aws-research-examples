@@ -66,16 +66,28 @@ def parse_readme(filename):
         country = "United States"  # default
         institution = institution_country.strip()
 
+        # List of known countries/regions to extract
+        known_countries = ['Australia', 'Canada', 'UK', 'United Kingdom', 'Germany', 'France', 'Japan',
+                          'South Africa', 'Netherlands', 'Switzerland', 'India', 'Brazil', 'China',
+                          'Singapore', 'New Zealand', 'Austria', 'Belgium', 'Denmark', 'Finland',
+                          'Ireland', 'Italy', 'Norway', 'Spain', 'Sweden', 'Israel']
+
         # Check if country is in institution field
         if '(' in institution and ')' in institution:
             parts = institution.rsplit('(', 1)
-            institution = parts[0].strip()
-            country = parts[1].rstrip(')').strip()
+            potential_country = parts[1].rstrip(')').strip()
+            # Only use if it's a known country
+            if potential_country in known_countries:
+                institution = parts[0].strip()
+                country = potential_country
         # Check if country is in project title
         elif '(' in project_title and ')' in project_title:
             parts = project_title.rsplit('(', 1)
-            project_title = parts[0].strip()
-            country = parts[1].rstrip(')').strip()
+            potential_country = parts[1].rstrip(')').strip()
+            # Only use if it's a known country
+            if potential_country in known_countries:
+                project_title = parts[0].strip()
+                country = potential_country
 
         # Determine domains based on keywords
         domains = []

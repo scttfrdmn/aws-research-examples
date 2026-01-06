@@ -4,12 +4,15 @@ let filters = {
     domain: 'all',
     year: 'all',
     program: 'all',
+    country: 'all',
     search: ''
 };
+let currentSort = 'default';
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', () => {
-    renderProjects(currentProjects);
+    loadFiltersFromURL();
+    applyFilters();
     setupEventListeners();
 });
 
@@ -36,6 +39,23 @@ function setupEventListeners() {
             // Update filter
             filters[filterType] = filterValue;
             applyFilters();
+        });
+    });
+
+    // Sort buttons
+    document.querySelectorAll('.sort-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const sortValue = e.target.dataset.sort;
+
+            // Update active state
+            document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+
+            // Update sort and re-render
+            currentSort = sortValue;
+            sortProjects();
+            renderProjects(currentProjects);
+            updateURL();
         });
     });
 
@@ -80,10 +100,26 @@ function applyFilters() {
             }
         }
 
+        // Country filter
+        if (filters.country !== 'all') {
+            if (filters.country === 'Other') {
+                // Show countries not in the main list
+                if (['United States', 'UK', 'Australia', 'Germany', 'Canada'].includes(project.country)) {
+                    return false;
+                }
+            } else {
+                if (project.country !== filters.country) {
+                    return false;
+                }
+            }
+        }
+
         return true;
     });
 
+    sortProjects();
     renderProjects(currentProjects);
+    updateURL();
 }
 
 // Render projects to the grid
@@ -154,9 +190,45 @@ function getDomainClass(domain) {
     return domainMap[domain] || 'tag-default';
 }
 
+// Sort projects
+function sortProjects() {
+    switch (currentSort) {
+        case 'newest':
+            currentProjects.sort((a, b) => {
+                // Extract the latest year from year string
+                const yearA = Math.max(...a.year.match(/\d{4}/g).map(Number));
+                const yearB = Math.max(...b.year.match(/\d{4}/g).map(Number));
+                return yearB - yearA;
+            });
+            break;
+        case 'oldest':
+            currentProjects.sort((a, b) => {
+                // Extract the earliest year from year string
+                const yearA = Math.min(...a.year.match(/\d{4}/g).map(Number));
+                const yearB = Math.min(...b.year.match(/\d{4}/g).map(Number));
+                return yearA - yearB;
+            });
+            break;
+        case 'alphabetical':
+            currentProjects.sort((a, b) => a.institution.localeCompare(b.institution));
+            break;
+        case 'default':
+            // Sort by ID to maintain original order
+            currentProjects.sort((a, b) => {
+                const idA = typeof a.id === 'string' ? parseInt(a.id.match(/\d+/)[0]) : a.id;
+                const idB = typeof b.id === 'string' ? parseInt(b.id.match(/\d+/)[0]) : b.id;
+                return idA - idB;
+            });
+            break;
+    }
+}
+
 // Shuffle projects
 function shuffleProjects() {
     currentProjects = [...currentProjects].sort(() => Math.random() - 0.5);
+    currentSort = 'default';
+    document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.sort-btn[data-sort="default"]').classList.add('active');
     renderProjects(currentProjects);
 }
 
@@ -166,8 +238,10 @@ function resetFilters() {
         domain: 'all',
         year: 'all',
         program: 'all',
+        country: 'all',
         search: ''
     };
+    currentSort = 'default';
 
     document.getElementById('search').value = '';
     document.querySelectorAll('.filter-btn').forEach(btn => {
@@ -176,7 +250,60 @@ function resetFilters() {
             btn.classList.add('active');
         }
     });
+    document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.sort-btn[data-sort="default"]').classList.add('active');
 
     currentProjects = [...projects];
     renderProjects(currentProjects);
+    updateURL();
+}
+
+// Load filters from URL parameters
+function loadFiltersFromURL() {
+    const params = new URLSearchParams(window.location.search);
+
+    if (params.has('domain')) filters.domain = params.get('domain');
+    if (params.has('year')) filters.year = params.get('year');
+    if (params.has('program')) filters.program = params.get('program');
+    if (params.has('country')) filters.country = params.get('country');
+    if (params.has('search')) {
+        filters.search = params.get('search');
+        document.getElementById('search').value = filters.search;
+    }
+    if (params.has('sort')) currentSort = params.get('sort');
+
+    // Update UI to reflect loaded filters
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        const filterType = btn.dataset.filter;
+        const filterValue = btn.dataset.value;
+        if (filters[filterType] === filterValue) {
+            btn.classList.add('active');
+        } else if (filterValue !== 'all') {
+            btn.classList.remove('active');
+        }
+    });
+
+    // Update sort UI
+    document.querySelectorAll('.sort-btn').forEach(btn => {
+        if (btn.dataset.sort === currentSort) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+}
+
+// Update URL with current filters (for shareability)
+function updateURL() {
+    const params = new URLSearchParams();
+
+    if (filters.domain !== 'all') params.set('domain', filters.domain);
+    if (filters.year !== 'all') params.set('year', filters.year);
+    if (filters.program !== 'all') params.set('program', filters.program);
+    if (filters.country !== 'all') params.set('country', filters.country);
+    if (filters.search) params.set('search', filters.search);
+    if (currentSort !== 'default') params.set('sort', currentSort);
+
+    const newURL = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.replaceState({}, '', newURL);
 }
