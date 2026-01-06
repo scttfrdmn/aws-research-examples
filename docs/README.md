@@ -47,15 +47,22 @@ python -m http.server 8000
 
 ## Contributing
 
-The full dataset should be extracted and added to `data.js`. Each project entry should include:
-- institution, country
-- project title
-- year(s)
-- domains (array)
-- programs (array)
-- services used
-- key achievement
-- source URL
+We welcome contributions! You can suggest additions, edits, or removals in two ways:
+
+1. **Via the Gallery:** Click the "➕ Suggest Addition/Edit" button in the gallery interface
+2. **Direct PR:** Create a pull request on GitHub
+
+Each project entry includes:
+- Institution, country
+- Project title
+- Year(s)
+- Domains (array)
+- Programs (array)
+- Services used
+- Key achievement
+- Source URL
+
+Our PR template will guide you through the submission process.
 
 ## Design Credits
 
