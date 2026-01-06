@@ -1,8 +1,8 @@
-# 146 Academic Research Projects Powered by AWS
+# 150 Academic Research Projects Powered by AWS
 
 *A Global Survey of Cloud-Enabled Scientific Discovery*
 
-AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives. This compilation documents 146 verified AWS-specific examples spanning 15 countries, prioritizing recent work from 2023-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center, Amazon Science Hubs (6 institutions), AWS Registry of Open Data (9 university datasets), Amazon Sustainability Data Initiative (ASDI), and Amazon Research Awards.
+AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives. This compilation documents 150 verified AWS-specific examples spanning 18 countries (including Switzerland, Sweden, Singapore, Germany), prioritizing recent work from 2023-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center, Amazon Science Hubs (6 institutions), AWS Registry of Open Data (9 university datasets), Amazon Sustainability Data Initiative (ASDI), and Amazon Research Awards.
 
 ---
 
@@ -1680,45 +1680,100 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 
 ---
 
-## Combined Summary (146 Examples Total)
+## International University Research (Europe & Asia)
+
+### 140. Singapore Eye Research Institute – Retinal Disease Classification with AutoML
+
+**Project:** SERI evaluated Amazon Rekognition AutoML platform for classifying retinal diseases from optical coherence tomography (OCT) scans, demonstrating impeccable diagnostic performance in categorizing various retinal diseases using OCT imaging.
+
+**AWS Services:** Amazon Rekognition (AutoML), AWS cloud infrastructure
+
+**Year:** 2024 (February)
+
+**Key Achievement:** Peer-reviewed study showing clinical-grade diagnostic performance for retinal disease classification using AWS AutoML.
+
+**Source:** [AWS Public Sector Blog - Singapore Eye Research Institute](https://aws.amazon.com/blogs/publicsector/singapore-eye-research-institute-categorizes-retinal-diseases-using-amazon-rekognition/)
+
+### 141. ETH Zurich & EPFL – Apertus Open-Source Multilingual LLM
+
+**Project:** Swiss AI Initiative jointly launched by ETH Zurich and EPFL released Apertus, a family of open-source LLMs (70B and 8B models) supporting 1,000+ languages, trained on Swiss ALPS supercomputer with 4,000+ NVIDIA GH200 GPUs. AWS provides global accessibility through Amazon SageMaker AI.
+
+**AWS Services:** Amazon SageMaker AI, AWS Europe (Zurich) Region
+
+**Year:** 2024-2025
+
+**Key Achievement:** Open-source multilingual LLM accessible via AWS infrastructure; part of Swiss National AI Institute (SNAI) backed by CHF 20M funding (2025-2028).
+
+**Source:** [AWS Alps Blog - Apertus LLM](https://aws.amazon.com/blogs/alps/switzerlands-open-source-apertus-llms-now-available-on-amazon-sagemaker-ai/)
+
+### 142. IU International University of Applied Sciences – EdTech Cloud Migration (Germany)
+
+**Project:** Germany's largest university by enrollment (100,000+ students) and Europe's fastest-growing university migrated to AWS in 2020 to improve access to education for everybody, everywhere, at any time. Uses 38 AWS services hosted in Europe (Frankfurt) Region powered by 95%+ renewable energy.
+
+**AWS Services:** 38 AWS services, Europe (Frankfurt) Region
+
+**Year:** 2020-ongoing (active through 2024)
+
+**Key Achievement:** Supports 100K+ students globally; sustainability-focused infrastructure; student-centered operations at scale.
+
+**Source:** [AWS Case Study - IU International University](https://aws.amazon.com/solutions/case-studies/iu-international-university-of-applied-sciences/)
+
+### 143. NGI Sweden / SciLifeLab – Genomics Cloud Computing Infrastructure
+
+**Project:** National Genomics Infrastructure (NGI) at SciLifeLab (one of Europe's largest sequencing facilities with Karolinska Institutet staff) uses AWS for analyzing massive genomics data pipelines, storing petabytes of data, and sharing results with collaborators. Hosts AWS In Spotlight Webinar Series on cloud computing initiatives.
+
+**AWS Services:** AWS compute, storage, database services; AWS-iGenomes Reference genomes on S3
+
+**Year:** 2024-ongoing
+
+**Key Achievement:** Enables researchers to process complex genomics workloads cost-effectively; supports Europe's largest sequencing facility operations.
+
+**Source:** [NGI Sweden - AWS Webinar Series](https://ngisweden.scilifelab.se/events/aws-in-spotlight-webinar-series/)
+
+---
+
+## Combined Summary (150 Examples Total)
 
 **Geographic Distribution (Combined):**
-- United States: 90 examples (Cornell x2, Dartmouth, U Colorado, NASA + previous)
-- United Kingdom: 9 examples (Oxford APAD, Oxford GLAM + previous)
-- France: 2 examples (Institut Pasteur x2)
-- South Korea: 1 example (Seoul National University)
-- Canada: 7 examples (Alberta, McMaster, UBC x2, UBC via RONIN)
-- Germany: 3 examples (Max Planck Society x2, others)
-- Japan: 1 example (Waseda University)
-- Australia: 5 examples
-- South Africa: 1 example
-- Kenya: 1 example
-- India: 1 example
-- Brazil: 1 example
-- China: 1 example
-- Netherlands: 1 example
-- Bahrain: 1 example
-- International collaborations (NASA, ASDI): 21 examples
+- **United States: 90 examples** (Cornell x2, Dartmouth, U Colorado, NASA + previous)
+- **United Kingdom: 9 examples** (Oxford APAD, Oxford GLAM + previous)
+- **Germany: 4 examples** (IU International U, Max Planck Society x2, + previous)
+- **Canada: 7 examples** (Alberta, McMaster, UBC x2, UBC via RONIN)
+- **Switzerland: 2 examples** (ETH Zurich, EPFL - Apertus LLM)
+- **Sweden: 1 example** (NGI Sweden/SciLifeLab/Karolinska)
+- **Singapore: 1 example** (Singapore Eye Research Institute)
+- **France: 2 examples** (Institut Pasteur x2)
+- **South Korea: 1 example** (Seoul National University)
+- **Japan: 1 example** (Waseda University)
+- **Australia: 5 examples**
+- **South Africa: 1 example**
+- **Kenya: 1 example**
+- **India: 1 example**
+- **Brazil: 1 example**
+- **China: 1 example**
+- **Netherlands: 1 example**
+- **Bahrain: 1 example**
+- **International collaborations (NASA, ASDI): 21 examples**
 
 **Temporal Distribution (Combined):**
-- **2025: 8 examples** (Dartmouth Claude partnership + previous)
-- **2024: 77 examples** (Cornell x2, Oxford APAD, Oxford GLAM + previous)
+- **2025: 9 examples** (Apertus LLM, Dartmouth Claude + previous)
+- **2024: 80 examples** (Singapore Eye, IU Germany, NGI Sweden, Cornell x2, Oxford x2 + previous)
 - **2023: 49 examples** (Logan SRA, NASA HEASARC, U Colorado DANRA + previous)
-- 2020-2022: 12 examples
+- **2020-2022: 12 examples**
 
 **Research Domains (Combined):**
-- **Computer Science & AI/ML: 53** (Generative AI Innovation Center, Trainium, Science Hubs)
-- **Life Sciences & Genomics: 18** (Logan SRA, Steinegger Lab, Kingston U, Serratus + previous)
+- **Computer Science & AI/ML: 55** (Apertus LLM, Generative AI Innovation Center, Trainium, Science Hubs)
+- **Life Sciences & Genomics: 19** (NGI Sweden, Logan SRA, Steinegger Lab, Kingston U, Serratus + previous)
+- **Medical Research & Healthcare: 19** (Singapore Eye, Weill Cornell archives, MIT 3D imaging, Cornell Socratic + previous)
 - **Climate & Environmental Science: 20** (APAD air pollution, DANRA meteorology, ASDI + previous)
-- **Medical Research & Healthcare: 18** (Weill Cornell archives, MIT 3D imaging, Cornell Socratic Chat + previous)
+- **Education Technology & Infrastructure: 9** (IU Germany 100K students, Dartmouth Claude, Cornell Socratic + previous)
 - **Physics & Astronomy: 9** (NASA HEASARC + previous)
-- **Cultural Heritage & Museums: 1** (Oxford GLAM)
-- **Education & Learning Analytics: 8** (Dartmouth Claude, Cornell Socratic + previous)
+- **Satellite & Remote Sensing: 7** (Oxford APAD + previous)
 - **Drug Discovery & Pharmaceutical: 6**
 - **Chemistry & Molecular Dynamics: 6**
-- **Satellite & Remote Sensing: 7** (Oxford APAD + previous)
-- **High Performance Computing: 5**
 - **Renewable Energy & Sustainability: 6**
+- **High Performance Computing: 5**
+- **Cultural Heritage & Museums: 1** (Oxford GLAM)
 - **Quantum Computing: 1**
 
 **Most Frequently Used AWS Services (Combined):**
