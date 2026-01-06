@@ -111,7 +111,8 @@ const projects = [
         "domains": [
             "Genomics",
             "AI/ML",
-            "Medical"
+            "Medical",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -332,7 +333,7 @@ const projects = [
         "project": "Square Kilometre Array (SKA) / ICRAR (Australia)",
         "year": "2015-ongoing",
         "domains": [
-            "Physics"
+            "Astronomy"
         ],
         "programs": [],
         "services": [
@@ -349,6 +350,7 @@ const projects = [
         "project": "LIGO Gravitational Wave Collaboration",
         "year": "2023-present (O4 observing run)",
         "domains": [
+            "Astronomy",
             "Physics"
         ],
         "programs": [],
@@ -404,6 +406,7 @@ const projects = [
         "year": "2021-2022",
         "domains": [
             "Genomics",
+            "Medical",
             "Chemistry"
         ],
         "programs": [],
@@ -443,7 +446,8 @@ const projects = [
         "year": "2024",
         "domains": [
             "AI/ML",
-            "Education"
+            "Education",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -462,7 +466,8 @@ const projects = [
         "year": "2020-present",
         "domains": [
             "AI/ML",
-            "Education"
+            "Education",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -628,7 +633,8 @@ const projects = [
         "project": "Folding@home COVID-19",
         "year": "2020",
         "domains": [
-            "Genomics"
+            "Genomics",
+            "Medical"
         ],
         "programs": [
             "Open Data"
@@ -647,7 +653,7 @@ const projects = [
         "project": "Serratus/Open Virome Project",
         "year": "2021-present",
         "domains": [
-            "Data Infrastructure"
+            "Genomics"
         ],
         "programs": [],
         "services": [
@@ -664,7 +670,8 @@ const projects = [
         "project": "tmCOVID Text Mining Tool",
         "year": "2020",
         "domains": [
-            "Other"
+            "AI/ML",
+            "Medical"
         ],
         "programs": [],
         "services": [
@@ -680,6 +687,7 @@ const projects = [
         "project": "COVID-19 Social Determinants",
         "year": "2021",
         "domains": [
+            "Medical",
             "Education"
         ],
         "programs": [],
@@ -699,7 +707,8 @@ const projects = [
         "year": "2022-present",
         "domains": [
             "Medical",
-            "Economics"
+            "Economics",
+            "Conservation"
         ],
         "programs": [],
         "services": [
@@ -748,7 +757,7 @@ const projects = [
         "project": "QREAL Quantum Testbed",
         "year": "2024",
         "domains": [
-            "Other"
+            "Quantum Computing"
         ],
         "programs": [],
         "services": [
@@ -766,7 +775,7 @@ const projects = [
         "project": "RACE Cloud Supercomputing Hub",
         "year": "2023-present",
         "domains": [
-            "Other"
+            "HPC & Infrastructure"
         ],
         "programs": [],
         "services": [
@@ -821,7 +830,7 @@ const projects = [
         "project": "Social Science Data Research",
         "year": "2024",
         "domains": [
-            "Data Infrastructure"
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -837,6 +846,7 @@ const projects = [
         "project": "Quantum Chemistry",
         "year": "2021",
         "domains": [
+            "Quantum Computing",
             "AI/ML",
             "Chemistry"
         ],
@@ -856,6 +866,7 @@ const projects = [
         "project": "Computational Chemistry",
         "year": "2021-2022",
         "domains": [
+            "Quantum Computing",
             "AI/ML",
             "Chemistry"
         ],
@@ -912,6 +923,7 @@ const projects = [
         "project": "QUBEC Quantum Chemistry Platform",
         "year": "2021-2022\n\n---\n\n# 50 Additional Academic Research Examples (2023-2025)\n\n## Life Sciences & Genomics (Additional)",
         "domains": [
+            "Quantum Computing",
             "Chemistry"
         ],
         "programs": [],
@@ -983,7 +995,7 @@ const projects = [
         "project": "Remote Sensing for Land Use Monitoring",
         "year": "2024",
         "domains": [
-            "Data Infrastructure"
+            "Climate"
         ],
         "programs": [],
         "services": [
@@ -1000,7 +1012,8 @@ const projects = [
         "project": "Livestock Health Monitoring IoT System",
         "year": "2024 (June)",
         "domains": [
-            "Medical"
+            "Medical",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -1067,7 +1080,7 @@ const projects = [
         "project": "Flood Prediction for National Park Service",
         "year": "2024",
         "domains": [
-            "Other"
+            "Climate"
         ],
         "programs": [],
         "services": [
@@ -1084,7 +1097,7 @@ const projects = [
         "project": "JMRV Carbon Monitoring Tool",
         "year": "2024",
         "domains": [
-            "Other"
+            "Climate"
         ],
         "programs": [],
         "services": [
@@ -1100,7 +1113,7 @@ const projects = [
         "project": "Bird Migration Studies",
         "year": "2024",
         "domains": [
-            "Data Infrastructure"
+            "Conservation"
         ],
         "programs": [],
         "services": [
@@ -1134,7 +1147,7 @@ const projects = [
         "year": "2024",
         "domains": [
             "AI/ML",
-            "Physics"
+            "Astronomy"
         ],
         "programs": [
             "Open Data"
@@ -1153,7 +1166,7 @@ const projects = [
         "project": "JWST Dark Matter Research",
         "year": "2024 (December, published in Nature Astronomy)",
         "domains": [
-            "Other"
+            "Astronomy"
         ],
         "programs": [],
         "services": [
@@ -1169,7 +1182,7 @@ const projects = [
         "project": "Early Dark Energy Research",
         "year": "2024 (September)",
         "domains": [
-            "Other"
+            "Astronomy"
         ],
         "programs": [],
         "services": [
@@ -1185,7 +1198,7 @@ const projects = [
         "project": "Seismology Cloud Computing Research",
         "year": "2024-2025",
         "domains": [
-            "Data Infrastructure"
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -1223,6 +1236,7 @@ const projects = [
         "year": "2025 (announced October)",
         "domains": [
             "AI/ML",
+            "Computer Science",
             "Robotics"
         ],
         "programs": [],
@@ -1276,7 +1290,7 @@ const projects = [
         "project": "BigDataX Summer Program",
         "year": "2024 (Summer)",
         "domains": [
-            "Data Infrastructure"
+            "Education"
         ],
         "programs": [],
         "services": [
@@ -1311,7 +1325,8 @@ const projects = [
         "project": "arXiv Research: AI-Driven Cloud Computing Innovations",
         "year": "2024 (October)",
         "domains": [
-            "AI/ML"
+            "AI/ML",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -1327,7 +1342,7 @@ const projects = [
         "project": "arXiv Research: AWS Model Deployment Services Analysis",
         "year": "2024",
         "domains": [
-            "Other"
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -1361,7 +1376,7 @@ const projects = [
         "project": "arXiv Research: Serverless Infrastructure Evaluation",
         "year": "2024-2025",
         "domains": [
-            "Data Infrastructure"
+            "HPC & Infrastructure"
         ],
         "programs": [],
         "services": [
@@ -1480,7 +1495,8 @@ const projects = [
         "project": "AlphaFold at Scale",
         "year": "2024",
         "domains": [
-            "Genomics"
+            "Genomics",
+            "Medical"
         ],
         "programs": [],
         "services": [
@@ -1531,7 +1547,7 @@ const projects = [
         "project": "Drug Discovery Acceleration",
         "year": "2024",
         "domains": [
-            "Other"
+            "Medical"
         ],
         "programs": [],
         "services": [
@@ -1631,7 +1647,7 @@ const projects = [
         "project": "Smart Campus Digital Twin",
         "year": "2024",
         "domains": [
-            "Data Infrastructure"
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -1683,7 +1699,7 @@ const projects = [
         "project": "RACE Cloud Supercomputing Hub (Additional)",
         "year": "2024 (presented at SC24)",
         "domains": [
-            "Other"
+            "HPC & Infrastructure"
         ],
         "programs": [],
         "services": [
@@ -2149,7 +2165,8 @@ const projects = [
         "project": "Amazon Science Hub Sustainability Awards",
         "year": "2023 (June)",
         "domains": [
-            "AI/ML"
+            "AI/ML",
+            "Climate"
         ],
         "programs": [
             "Science Hub"
@@ -2168,7 +2185,8 @@ const projects = [
         "year": "2024 (January announcement)",
         "domains": [
             "AI/ML",
-            "Education"
+            "Education",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -2258,7 +2276,7 @@ const projects = [
         "project": "Cloud Analytics Platform",
         "year": "2023 (February)",
         "domains": [
-            "Other"
+            "HPC & Infrastructure"
         ],
         "programs": [],
         "services": [
@@ -2274,7 +2292,7 @@ const projects = [
         "project": "Automated Transcription Service",
         "year": "2023 (late)",
         "domains": [
-            "Other"
+            "HPC & Infrastructure"
         ],
         "programs": [],
         "services": [
@@ -2486,7 +2504,8 @@ const projects = [
         "project": "APAD Air Pollution Detection",
         "year": "2024 (May launch, November open data release)",
         "domains": [
-            "AI/ML"
+            "AI/ML",
+            "Climate"
         ],
         "programs": [],
         "services": [
@@ -2542,6 +2561,7 @@ const projects = [
         "year": "1990-2023 (dataset coverage)",
         "domains": [
             "Climate",
+            "Astronomy",
             "Education"
         ],
         "programs": [],
@@ -2561,6 +2581,7 @@ const projects = [
         "year": "2023-ongoing",
         "domains": [
             "AI/ML",
+            "Astronomy",
             "Physics"
         ],
         "programs": [],
@@ -2635,7 +2656,8 @@ const projects = [
         "domains": [
             "Genomics",
             "AI/ML",
-            "Education"
+            "Education",
+            "Conservation"
         ],
         "programs": [],
         "services": [
@@ -2652,7 +2674,8 @@ const projects = [
         "project": "Genomics Cloud Computing Infrastructure",
         "year": "2024-ongoing",
         "domains": [
-            "Genomics"
+            "Genomics",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -2693,6 +2716,7 @@ const projects = [
             "Genomics",
             "AI/ML",
             "Education",
+            "Computer Science",
             "Chemistry"
         ],
         "programs": [],
@@ -2728,7 +2752,8 @@ const projects = [
         "year": "2021 (February)",
         "domains": [
             "AI/ML",
-            "Medical"
+            "Medical",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -2825,7 +2850,8 @@ const projects = [
         "year": "2021-2022",
         "domains": [
             "AI/ML",
-            "Education"
+            "Education",
+            "Computer Science"
         ],
         "programs": [],
         "services": [
@@ -2861,6 +2887,7 @@ const projects = [
         "domains": [
             "AI/ML",
             "Education",
+            "Computer Science",
             "Robotics"
         ],
         "programs": [
@@ -2987,7 +3014,8 @@ const projects = [
         "project": "All of Us Research Genomics Scaling",
         "year": "2021-2024",
         "domains": [
-            "Genomics"
+            "Genomics",
+            "Medical"
         ],
         "programs": [],
         "services": [
@@ -3104,7 +3132,8 @@ const projects = [
         "year": "2023-ongoing",
         "domains": [
             "Genomics",
-            "AI/ML"
+            "AI/ML",
+            "Computer Science"
         ],
         "programs": [
             "RONIN"

@@ -93,34 +93,73 @@ def parse_readme(filename):
         domains = []
         combined_text = (institution + " " + project_title + " " + description).lower()
 
-        # Domain classification
-        if any(word in combined_text for word in ['genomics', 'genome', 'dna', 'rna', 'sequencing', 'protein', 'bioinformatics', 'phage']):
+        # Domain classification (order matters - more specific first)
+
+        # Quantum Computing
+        if any(word in combined_text for word in ['quantum', 'qubits', 'quantum computing', 'quantum testbed']):
+            domains.append("Quantum Computing")
+
+        # Genomics & Virology
+        if any(word in combined_text for word in ['genomics', 'genome', 'dna', 'rna', 'sequencing', 'protein', 'bioinformatics', 'phage', 'genetic', 'virome', 'viral', 'virus']):
             domains.append("Genomics")
-        if any(word in combined_text for word in ['ai', 'machine learning', 'ml', 'deep learning', 'neural', 'llm', 'gpt', 'claude', 'bedrock', 'artificial intelligence']):
+
+        # AI/ML (including NLP)
+        if any(word in combined_text for word in ['ai', 'machine learning', 'ml', 'deep learning', 'neural', 'llm', 'gpt', 'claude', 'bedrock', 'artificial intelligence', 'nlp', 'natural language', 'text mining', 'computer vision']):
             domains.append("AI/ML")
-        if any(word in combined_text for word in ['medical', 'health', 'hospital', 'clinical', 'patient', 'disease', 'cancer', 'alzheimer']):
+
+        # Medical (including drug discovery)
+        if any(word in combined_text for word in ['medical', 'health', 'hospital', 'clinical', 'patient', 'disease', 'cancer', 'alzheimer', 'drug discovery', 'pharmaceutical', 'medicine', 'covid']):
             domains.append("Medical")
-        if any(word in combined_text for word in ['climate', 'weather', 'atmospheric', 'earth', 'environmental', 'meteorology', 'albedo']):
+
+        # Climate & Environmental Science
+        if any(word in combined_text for word in ['climate', 'weather', 'atmospheric', 'earth', 'environmental', 'meteorology', 'albedo', 'carbon', 'flood', 'drought', 'sustainability', 'emission', 'remote sensing', 'land use', 'deforestation', 'satellite']):
             domains.append("Climate")
-        if any(word in combined_text for word in ['physics', 'astronomy', 'astrophysics', 'telescope', 'gravitational', 'particle', 'ligo', 'cern']):
+
+        # Astronomy & Astrophysics
+        if any(word in combined_text for word in ['astronomy', 'astrophysics', 'telescope', 'gravitational', 'jwst', 'dark matter', 'dark energy', 'galaxy', 'cosmology', 'space']):
+            domains.append("Astronomy")
+
+        # Physics (particle physics, LIGO, etc.)
+        if any(word in combined_text for word in ['physics', 'particle', 'ligo', 'cern', 'gravitational wave']):
             domains.append("Physics")
-        if any(word in combined_text for word in ['education', 'learning', 'student', 'tutor', 'teaching', 'classroom']):
+
+        # Education
+        if any(word in combined_text for word in ['education', 'learning', 'student', 'tutor', 'teaching', 'classroom', 'pedagogy', 'summer program', 'training program']):
             domains.append("Education")
-        if any(word in combined_text for word in ['neuroscience', 'brain', 'neuroimaging']):
+
+        # Neuroscience
+        if any(word in combined_text for word in ['neuroscience', 'brain', 'neuroimaging', 'neural imaging']):
             domains.append("Neuroscience")
-        if any(word in combined_text for word in ['economics', 'economic', 'financial']):
+
+        # Computer Science
+        if any(word in combined_text for word in ['computer science', 'algorithms', 'software engineering', 'deployment services', 'cloud computing', 'distributed systems', 'digital twin', 'smart campus', 'iot', 'internet of things']):
+            domains.append("Computer Science")
+
+        # Economics
+        if any(word in combined_text for word in ['economics', 'economic', 'financial', 'market']):
             domains.append("Economics")
-        if any(word in combined_text for word in ['robotics', 'robot']):
+
+        # Robotics
+        if any(word in combined_text for word in ['robotics', 'robot', 'autonomous']):
             domains.append("Robotics")
-        if any(word in combined_text for word in ['chemistry', 'molecular', 'materials']):
+
+        # Chemistry
+        if any(word in combined_text for word in ['chemistry', 'molecular', 'materials', 'chemical']):
             domains.append("Chemistry")
+
+        # Cultural Heritage
         if any(word in combined_text for word in ['museum', 'cultural', 'heritage', 'archaeology', 'artifact']):
             domains.append("Cultural Heritage")
-        if any(word in combined_text for word in ['conservation', 'wildlife', 'biodiversity', 'species']):
-            domains.append("Conservation")
-        if not domains and any(word in combined_text for word in ['data', 'storage', 'backup', 'infrastructure']):
-            domains.append("Data Infrastructure")
 
+        # Conservation & Ecology
+        if any(word in combined_text for word in ['conservation', 'wildlife', 'biodiversity', 'species', 'endangered', 'bird', 'migration', 'ecology', 'habitat']):
+            domains.append("Conservation")
+
+        # HPC & Infrastructure (only if no other domain matched)
+        if not domains and any(word in combined_text for word in ['hpc', 'high performance computing', 'supercomputing', 'infrastructure', 'parallelcluster', 'data platform', 'analytics platform', 'transcription service']):
+            domains.append("HPC & Infrastructure")
+
+        # Fallback to Other only if nothing matched
         if not domains:
             domains.append("Other")
 

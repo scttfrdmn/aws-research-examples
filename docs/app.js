@@ -188,18 +188,22 @@ function createCard(project, index) {
 function getDomainClass(domain) {
     const domainMap = {
         'AI/ML': 'tag-ai',
-        'Genomics': 'tag-genomics',
         'Medical': 'tag-medical',
-        'Climate': 'tag-climate',
-        'Physics': 'tag-physics',
-        'Astronomy': 'tag-physics',
         'Education': 'tag-education',
-        'Robotics': 'tag-ai',
-        'NLP': 'tag-ai',
-        'Virology': 'tag-genomics',
-        'Bioinformatics': 'tag-genomics',
-        'Conservation': 'tag-genomics',
-        'Cultural Heritage': 'tag-education'
+        'Genomics': 'tag-genomics',
+        'Climate': 'tag-climate',
+        'Computer Science': 'tag-computer-science',
+        'Chemistry': 'tag-chemistry',
+        'Neuroscience': 'tag-neuroscience',
+        'Conservation': 'tag-conservation',
+        'Astronomy': 'tag-astronomy',
+        'Robotics': 'tag-robotics',
+        'HPC & Infrastructure': 'tag-hpc',
+        'Physics': 'tag-physics',
+        'Quantum Computing': 'tag-quantum',
+        'Cultural Heritage': 'tag-cultural',
+        'Economics': 'tag-economics',
+        'Other': 'tag-other'
     };
 
     return domainMap[domain] || 'tag-default';

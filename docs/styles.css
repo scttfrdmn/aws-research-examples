@@ -7,12 +7,25 @@
     --text: #e6e6e6;
     --text-muted: #9ca3af;
     --border: #374151;
-    --tag-ai: #3b82f6;
-    --tag-genomics: #10b981;
-    --tag-medical: #ec4899;
-    --tag-climate: #14b8a6;
-    --tag-physics: #8b5cf6;
-    --tag-education: #f59e0b;
+
+    /* Domain tag colors - 17 unique, visually distinct colors */
+    --tag-ai: #3b82f6;              /* Blue */
+    --tag-medical: #ec4899;          /* Pink */
+    --tag-education: #f59e0b;        /* Amber/Orange */
+    --tag-genomics: #10b981;         /* Emerald Green */
+    --tag-climate: #14b8a6;          /* Teal */
+    --tag-computer-science: #06b6d4; /* Cyan */
+    --tag-chemistry: #a855f7;        /* Purple */
+    --tag-neuroscience: #e11d48;     /* Rose/Red */
+    --tag-conservation: #84cc16;     /* Lime Green */
+    --tag-astronomy: #8b5cf6;        /* Violet */
+    --tag-robotics: #f97316;         /* Orange */
+    --tag-hpc: #6366f1;              /* Indigo */
+    --tag-physics: #db2777;          /* Pink-Purple */
+    --tag-quantum: #0ea5e9;          /* Sky Blue */
+    --tag-cultural: #d97706;         /* Amber */
+    --tag-economics: #059669;        /* Green */
+    --tag-other: #6b7280;            /* Gray */
 }
 
 * {
@@ -315,12 +328,23 @@ header h1 {
 }
 
 .tag-ai { background: var(--tag-ai); color: white; }
-.tag-genomics { background: var(--tag-genomics); color: white; }
 .tag-medical { background: var(--tag-medical); color: white; }
-.tag-climate { background: var(--tag-climate); color: white; }
-.tag-physics { background: var(--tag-physics); color: white; }
 .tag-education { background: var(--tag-education); color: white; }
-.tag-default { background: #6b7280; color: white; }
+.tag-genomics { background: var(--tag-genomics); color: white; }
+.tag-climate { background: var(--tag-climate); color: white; }
+.tag-computer-science { background: var(--tag-computer-science); color: white; }
+.tag-chemistry { background: var(--tag-chemistry); color: white; }
+.tag-neuroscience { background: var(--tag-neuroscience); color: white; }
+.tag-conservation { background: var(--tag-conservation); color: white; }
+.tag-astronomy { background: var(--tag-astronomy); color: white; }
+.tag-robotics { background: var(--tag-robotics); color: white; }
+.tag-hpc { background: var(--tag-hpc); color: white; }
+.tag-physics { background: var(--tag-physics); color: white; }
+.tag-quantum { background: var(--tag-quantum); color: white; }
+.tag-cultural { background: var(--tag-cultural); color: white; }
+.tag-economics { background: var(--tag-economics); color: white; }
+.tag-other { background: var(--tag-other); color: white; }
+.tag-default { background: var(--tag-other); color: white; }
 
 .achievement {
     color: var(--text-muted);
