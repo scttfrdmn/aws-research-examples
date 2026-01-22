@@ -1,0 +1,152 @@
+name: Suggest Research Project
+description: Propose a new AWS academic research project to add to the gallery
+title: "[Project Suggestion] "
+labels: ["enhancement", "new-project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a research project! Please provide as much detail as possible to help us verify and add it to the gallery.
+
+  - type: dropdown
+    id: suggestion-type
+    attributes:
+      label: Type of Suggestion
+      description: What type of contribution is this?
+      options:
+        - New Research Project
+        - Update Existing Entry
+        - Remove Entry
+    validations:
+      required: true
+
+  - type: input
+    id: institution
+    attributes:
+      label: Institution/Organization
+      description: University, research lab, or organization name
+      placeholder: e.g., Stanford University, MIT, Johns Hopkins
+    validations:
+      required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: Where is the research conducted?
+      placeholder: e.g., United States, UK, Germany
+    validations:
+      required: true
+
+  - type: input
+    id: project-title
+    attributes:
+      label: Project Title
+      description: Brief, descriptive title of the research project
+      placeholder: e.g., AI-Powered Drug Discovery Platform
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Project Description
+      description: 2-3 sentences describing the research and its impact
+      placeholder: Describe what the research does, its goals, and key outcomes
+    validations:
+      required: true
+
+  - type: input
+    id: aws-services
+    attributes:
+      label: AWS Services Used
+      description: List the primary AWS services
+      placeholder: e.g., EC2, S3, SageMaker, Bedrock, Lambda
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: When was/is the project conducted?
+      placeholder: e.g., 2024, 2023-2024, 2023-ongoing
+    validations:
+      required: true
+
+  - type: textarea
+    id: achievement
+    attributes:
+      label: Key Achievement
+      description: Notable results, metrics, or outcomes (optional but recommended)
+      placeholder: e.g., "Reduced analysis time from 10 days to 2 hours" or "Analyzed 2.5 million genomes"
+
+  - type: input
+    id: source-url
+    attributes:
+      label: Source URL
+      description: Link to blog post, case study, research paper, or university announcement
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domains
+    attributes:
+      label: Research Domain(s)
+      description: Select all that apply
+      multiple: true
+      options:
+        - AI/ML
+        - Medical
+        - Education
+        - Genomics
+        - Climate
+        - Computer Science
+        - Chemistry
+        - Neuroscience
+        - Conservation
+        - Astronomy
+        - Robotics
+        - HPC & Infrastructure
+        - Physics
+        - Quantum Computing
+        - Cultural Heritage
+        - Economics
+        - Other
+
+  - type: dropdown
+    id: program
+    attributes:
+      label: AWS Program Affiliation
+      description: Is this part of a specific AWS program? (optional)
+      options:
+        - None
+        - Build on Trainium
+        - Science Hub
+        - GenAI Innovation Center
+        - Open Data Registry
+        - ASDI (Sustainability Data Initiative)
+        - Partner Program (e.g., RONIN)
+        - Research Awards
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: I have verified the information is accurate and from a credible source
+          required: true
+        - label: This is actual research work (not just a grant announcement)
+          required: true
+        - label: The project has a substantive connection to AWS services
+          required: true
+        - label: I have checked this doesn't duplicate an existing entry
+          required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other relevant details or context

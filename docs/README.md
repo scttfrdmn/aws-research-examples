@@ -47,10 +47,11 @@ python -m http.server 8000
 
 ## Contributing
 
-We welcome contributions! You can suggest additions, edits, or removals in two ways:
+We welcome contributions! You can suggest additions, edits, or removals in three ways:
 
-1. **Via the Gallery:** Click the "➕ Suggest Addition/Edit" button in the gallery interface
-2. **Direct PR:** Create a pull request on GitHub
+1. **Via the Gallery:** Click the "➕ Suggest Addition/Edit" button to open a GitHub issue with a structured form
+2. **Create an Issue:** Use our [issue template](https://github.com/scttfrdmn/aws-research-examples/issues/new?template=suggest-research-project.yml) for discussion and verification
+3. **Direct PR:** Create a pull request on GitHub for immediate changes
 
 Each project entry includes:
 - Institution, country
@@ -62,7 +63,7 @@ Each project entry includes:
 - Key achievement
 - Source URL
 
-Our PR template will guide you through the submission process.
+Our templates will guide you through the submission process.
 
 ## Design Credits
 
