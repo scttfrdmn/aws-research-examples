@@ -1,5 +1,5 @@
 // AWS Academic Research Projects Data
-// Full dataset: 172 verified academic research projects
+// Full dataset: 173 verified academic research projects
 // Auto-generated from README.md
 
 const projects = [
@@ -140,6 +140,25 @@ const projects = [
         ],
         "achievement": "85% cost savings over on-demand pricing; enables global drug discovery research.",
         "url": "https://openfold.io/"
+    },
+    {
+        "id": "8",
+        "institution": "Phytoform Labs",
+        "country": "UK",
+        "project": "CRE.AI.TIVE Platform for Crop Genomics",
+        "year": "2024",
+        "domains": [
+            "Genomics",
+            "AI/ML",
+            "Education",
+            "Conservation"
+        ],
+        "programs": [],
+        "services": [
+            "AWS HealthOmics"
+        ],
+        "achievement": "Analyzed millions of DNA sequences to create scalable method for plant gene modification using native DNA sequences. Successfully validated 2,000 sequence variants, identifying novel regulatory arrangements for enhanced crop traits.",
+        "url": "https://aws.amazon.com/healthomics/agriculture-science/"
     },
     {
         "id": "8",

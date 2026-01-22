@@ -1,4 +1,4 @@
-# 172 Academic Research Projects Powered by AWS
+# 173 Academic Research Projects Powered by AWS
 
 *A Global Survey of Cloud-Enabled Scientific Discovery*
 
@@ -6,7 +6,7 @@
 
 ---
 
-AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives, conservation biology to economic modeling. This compilation documents 172 verified AWS-specific ACADEMIC examples spanning 18 countries (including Switzerland, Sweden, Singapore, Germany, Australia), covering 2021-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center (4 institutions), Amazon Science Hubs (6 institutions), AWS Registry of Open Data (10+ university datasets), Amazon Sustainability Data Initiative (ASDI), AWS HPC Partner ecosystem (RONIN), and Amazon Research Awards.
+AWS cloud infrastructure underpins breakthrough research across every scientific discipline, from pandemic-prevention genomics to gravitational wave detection, AI model training to climate modeling, museum collections to astrophysics data archives, conservation biology to economic modeling. This compilation documents 173 verified AWS-specific ACADEMIC examples spanning 18 countries (including Switzerland, Sweden, Singapore, Germany, Australia), covering 2015-2025. Includes major programs: Build on Trainium ($110M, 10 universities), AWS Generative AI Innovation Center (4 institutions), Amazon Science Hubs (6 institutions), AWS Registry of Open Data (10+ university datasets), Amazon Sustainability Data Initiative (ASDI), AWS HPC Partner ecosystem (RONIN), and Amazon Research Awards.
 
 ---
 
@@ -93,6 +93,18 @@ AWS cloud infrastructure underpins breakthrough research across every scientific
 **Key Achievement:** 85% cost savings over on-demand pricing; enables global drug discovery research.
 
 **Source:** [OpenFold Consortium](https://openfold.io/)
+
+### 8. Phytoform Labs – CRE.AI.TIVE Platform for Crop Genomics (UK)
+
+**Project:** AI-driven genomics platform for developing sustainable crop varieties. Uses machine learning trained on 12 plant species to predict gene regulatory elements, enabling design of non-bruising potatoes and waste-reducing tomatoes without requiring prior knowledge of specific regulatory mechanisms.
+
+**AWS Services:** AWS HealthOmics
+
+**Year:** 2024
+
+**Key Achievement:** Analyzed millions of DNA sequences to create scalable method for plant gene modification using native DNA sequences. Successfully validated 2,000 sequence variants, identifying novel regulatory arrangements for enhanced crop traits.
+
+**Source:** [AWS HealthOmics Agriculture](https://aws.amazon.com/healthomics/agriculture-science/) • [bioRxiv Publication](https://www.biorxiv.org/content/10.1101/2024.12.05.626999v1)
 
 ---
 

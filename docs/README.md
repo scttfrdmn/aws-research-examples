@@ -2,7 +2,7 @@
 
 **Live Site:** https://scttfrdmn.github.io/aws-research-examples/
 
-An interactive gallery showcasing 172 verified AWS-powered academic research projects from 2021-2025, spanning 18 countries.
+An interactive gallery showcasing 173 verified AWS-powered academic research projects from 2015-2025, spanning 10 countries.
 
 ## Features
 
@@ -27,14 +27,14 @@ An interactive gallery showcasing 172 verified AWS-powered academic research pro
 
 ## Data Coverage
 
-- **172 total projects** across 18 countries
-- **Temporal:** 2025 (10), 2024 (83), 2023 (50), 2021-22 (29)
-- **Top domains:** AI/ML (90), Medical (39), Education (37), Genomics (27), Climate (19)
+- **173 total projects** across 10 countries
+- **Temporal:** 2025 (10), 2024 (87), 2023 (39), 2022 (15), 2021 (27), 2015-2020 (varies)
+- **Top domains:** AI/ML (93), Medical (46), Education (39), Genomics (29), Climate (24)
 - **Major programs:** Build on Trainium, Science Hubs, GenAI Innovation Center, RONIN, Open Data
 
 ## Current Status
 
-**✅ Complete:** All 172 research projects from the main README.md are now populated in the gallery!
+**✅ Complete:** All 173 research projects from the main README.md are now populated in the gallery!
 
 ## Local Development
 
